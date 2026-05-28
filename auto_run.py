@@ -30,7 +30,7 @@ print("\nStarting Backend...\n")
 
 backend_process = subprocess.Popen(
 
-    "uvicorn main:app --reload",
+    "C:/Users/mahaj/miniconda3/envs/kokoro/python.exe -m uvicorn main:app --reload",
 
     cwd=BACKEND,
 
