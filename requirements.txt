@@ -1,0 +1,9 @@
+kokoro
+sounddevice
+soundfile
+numpy
+torch
+spacy
+fastapi
+uvicorn
+python-multipart
