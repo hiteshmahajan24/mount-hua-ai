@@ -1,12 +1,13 @@
 
 import { useEffect, useState } from "react";
 
-import BackgroundVideo from "./BackgroundVideo";
-import SubtitleOverlay from "./SubtitleOverlay";
-import Controls from "./Controls";
-import Sidebar from "./Sidebar";
+import BackgroundVideo from "../components/BackgroundVideo";
+import SubtitleOverlay from "../components/SubtitleOverlay";
+import Controls from "../components/Controls";
+import Sidebar from "../components/Sidebar";
+import { useGlobalAudio }
+from "../components/AudioProvider";
 
-const API = "http://127.0.0.1:8000";
 
 export default function Player() {
 
@@ -32,6 +33,18 @@ export default function Player() {
 
   const [search, setSearch] =
     useState("");
+
+    
+  const {
+
+    muted,
+    toggleMute,
+    startAudio
+
+  } = useGlobalAudio();
+
+
+  const API = "http://127.0.0.1:8000";    
 
   // ========================================
   // FETCH STATUS
@@ -204,6 +217,45 @@ export default function Player() {
       overflow-hidden
     ">
 
+      
+    <button
+
+      onClick={toggleMute}
+
+      className="
+        absolute
+        top-6
+        right-6
+        z-50
+        w-14
+        h-14
+        rounded-full
+        bg-black/50
+        backdrop-blur-xl
+        text-2xl
+        hover:scale-110
+        transition-all
+      "
+
+    >
+
+      {
+
+        muted
+
+        ?
+
+        "🔇"
+
+        :
+
+        "🎵"
+
+      }
+
+    </button>
+
+
       {/* SIDEBAR */}
 
       <Sidebar
@@ -226,13 +278,12 @@ export default function Player() {
         overflow-hidden
       ">
 
-        <BackgroundVideo />
+        <BackgroundVideo  />
 
         <div className="
           absolute
           inset-0
-          bg-black/50
-          backdrop-blur-[2px]
+          bg-black/30
         " />
 
         <div className="

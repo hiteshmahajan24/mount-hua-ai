@@ -16,6 +16,10 @@ export default function BackgroundVideo() {
         h-full
         object-cover
       "
+      style={{
+        filter:
+          "contrast(1.1) saturate(1.1)"
+      }}
 
     >
 

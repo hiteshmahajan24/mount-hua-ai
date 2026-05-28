@@ -1,16 +1,131 @@
+
 @import "tailwindcss";
+
+/* ============================================
+GLOBAL
+============================================ */
 
 html,
 body,
 #root {
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    overflow: hidden;
+  background: black;
 
-    background: black;
+  overflow: hidden;
+
+  font-family:
+    Inter,
+    system-ui,
+    sans-serif;
+
+}
+
+/* ============================================
+SCROLLBAR
+============================================ */
+
+::-webkit-scrollbar {
+
+  width: 8px;
+  height: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+
+  background: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  background:
+    rgba(34, 211, 238, 0.8);
+
+  border-radius: 999px;
+
+}
+
+/* ============================================
+FLOATING TITLE
+============================================ */
+
+@keyframes floaty {
+
+  0% {
+
+    transform:
+      translateY(0px);
+
+  }
+
+  50% {
+
+    transform:
+      translateY(-10px);
+
+  }
+
+  100% {
+
+    transform:
+      translateY(0px);
+
+  }
+
+}
+
+.floaty {
+
+  animation:
+    floaty 5s ease-in-out infinite;
+
+}
+
+/* ============================================
+CARD GLOW
+============================================ */
+
+.glow-hover {
+
+  transition:
+    all 0.3s ease;
+
+}
+
+.glow-hover:hover {
+
+  box-shadow:
+    0 0 35px
+    rgba(34,211,238,0.4);
+
+}
+
+/* ============================================
+SMOOTH BUTTONS
+============================================ */
+
+button {
+
+  cursor: pointer;
+
+}
+
+/* ============================================
+TEXT SELECTION
+============================================ */
+
+::selection {
+
+  background:
+    rgba(34,211,238,0.35);
+
+  color: white;
+
 }
