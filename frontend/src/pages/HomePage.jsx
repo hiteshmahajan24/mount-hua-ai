@@ -1,7 +1,13 @@
 
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import {
+  useState,
+  useEffect
+} from "react";
 
+import { useNavigate } from "react-router-dom";
+import {
+  getContinueWatching
+} from "../utils/continueWatching";
 import {
   Play,
   Flame,
@@ -22,7 +28,7 @@ import heroBg1 from "../assets/hero/hero_bg_1.jpg";
 import heroBg2 from "../assets/hero/hero_bg_2.jpg";
 import heroBg3 from "../assets/hero/hero_bg_3.jpg";
 
-import logo from "../assets/logos/logo_primary.png";
+import logo from "../assets/logos/logo_icon_transparent.png";
 
 import petal1 from "../assets/ui/petal_1.png";
 import petal2 from "../assets/ui/petal_2.png";
@@ -53,6 +59,22 @@ export default function HomePage() {
   const [bgIndex, setBgIndex] = useState(0);
 
   const [videoMode, setVideoMode] = useState(true);
+
+
+  const [continueWatching, setContinueWatching] =
+    useState([]);
+
+
+    useEffect(() => {
+
+    const data =
+      getContinueWatching();
+
+    setContinueWatching(data);
+
+  }, []);
+
+
 
   async function handleStart() {
 
@@ -95,6 +117,8 @@ export default function HomePage() {
 
   }
 
+
+
   return (
 
     <div className="
@@ -131,7 +155,7 @@ export default function HomePage() {
 
               w-full
               h-full
-              
+
               object-cover
               object-center
             "
@@ -667,11 +691,55 @@ export default function HomePage() {
             pb-2
           ">
 
+                    
+          {
+
+            continueWatching.length > 0
+
+            ?
+
+            continueWatching.map((item) => (
+
+              <AnimeCard
+
+                key={item.chapter}
+
+                title={item.title}
+
+                chapter={item.chapter}
+
+                image={item.image}
+
+                progress={item.progress}
+
+                onClick={() =>
+
+                  navigate(
+
+                    `/player?chapter=${item.chapter}`
+
+                  )
+
+                }
+
+              />
+
+            ))
+
+            :
+
             <AnimeCard
+
               title="Mount Hua Return"
+
               chapter="285"
+
               image={chapter285}
+
             />
+
+          }
+
 
           </div>
 

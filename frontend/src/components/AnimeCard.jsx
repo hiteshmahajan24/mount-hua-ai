@@ -3,42 +3,40 @@ export default function AnimeCard({
 
   title,
   chapter,
-  image
+  image,
+
+  progress = 0,
+
+  onClick
 
 }) {
 
   return (
 
-    <div className="
-      min-w-[250px]
-      w-[250px]
-      h-[150px]
+    <div
 
-      rounded-[28px]
+      onClick={onClick}
 
-      overflow-hidden
+      className="
+        min-w-[320px]
+        h-[200px]
 
-      relative
+        rounded-3xl
+        overflow-hidden
 
-      group
+        relative
+        group
 
-      cursor-pointer
+        cursor-pointer
 
-      transition-all
-      duration-500
+        transition-all
 
-      hover:scale-[1.04]
+        hover:scale-[1.03]
 
-      hover:-translate-y-1
+        hover:shadow-[0_0_40px_rgba(34,211,238,0.35)]
+      "
 
-      hover:shadow-[0_0_40px_rgba(34,211,238,0.22)]
-
-      border
-      border-white/10
-
-      bg-black/30
-      backdrop-blur-xl
-    ">
+    >
 
       {/* IMAGE */}
 
@@ -56,7 +54,7 @@ export default function AnimeCard({
           object-cover
 
           transition-all
-          duration-700
+          duration-500
 
           group-hover:scale-110
         "
@@ -71,24 +69,8 @@ export default function AnimeCard({
 
         bg-gradient-to-t
         from-black
-        via-black/40
+        via-black/30
         to-transparent
-      " />
-
-      {/* CYAN GLOW */}
-
-      <div className="
-        absolute
-        inset-0
-
-        opacity-0
-
-        group-hover:opacity-100
-
-        transition-all
-        duration-500
-
-        bg-cyan-400/10
       " />
 
       {/* CONTENT */}
@@ -98,21 +80,15 @@ export default function AnimeCard({
         bottom-0
         left-0
 
-        p-5
+        w-full
 
-        z-10
+        p-6
       ">
 
         <p className="
           text-cyan-300
-
-          text-[13px]
-
-          font-semibold
-
-          tracking-wide
-
-          mb-1
+          text-sm
+          mb-2
         ">
 
           Chapter {chapter}
@@ -120,20 +96,68 @@ export default function AnimeCard({
         </p>
 
         <h2 className="
-          text-[1.45rem]
-
+          text-2xl
+          font-bold
           leading-tight
-
-          font-extrabold
-
-          text-white
-
-          drop-shadow-xl
         ">
 
           {title}
 
         </h2>
+
+        {/* PROGRESS */}
+
+        {
+
+          progress > 0
+
+          &&
+
+          <div className="mt-4">
+
+            <div className="
+              w-full
+              h-2
+
+              rounded-full
+
+              bg-white/10
+              overflow-hidden
+            ">
+
+              <div
+
+                className="
+                  h-full
+                  rounded-full
+
+                  bg-cyan-400
+
+                  shadow-[0_0_15px_rgba(34,211,238,0.8)]
+                "
+
+                style={{
+                  width:
+                    `${progress}%`
+                }}
+
+              />
+
+            </div>
+
+            <p className="
+              text-xs
+              text-zinc-300
+              mt-2
+            ">
+
+              {progress}% completed
+
+            </p>
+
+          </div>
+
+        }
 
       </div>
 

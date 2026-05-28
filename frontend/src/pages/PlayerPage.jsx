@@ -1,3 +1,11 @@
+import {
+  saveContinueWatching
+} from "../utils/continueWatching";
+
+import chapter285 from "../assets/chapters/chapter_285.jpg";
+import chapter286 from "../assets/chapters/chapter_286.jpg";
+import chapter287 from "../assets/chapters/chapter_287.jpg";
+import chapter288 from "../assets/chapters/chapter_288.jpg";
 
 import { useEffect, useState } from "react";
 
@@ -45,6 +53,17 @@ export default function Player() {
 
 
   const API = "http://127.0.0.1:8000";    
+
+
+const chapterImages = {
+
+  285: chapter285,
+  286: chapter286,
+  287: chapter287,
+  288: chapter288,
+
+};
+
 
   // ========================================
   // FETCH STATUS
@@ -205,6 +224,59 @@ export default function Player() {
       clearInterval(interval);
 
   }, []);
+
+
+  //AUTO SAVE PROGRESS
+useEffect(() => {
+
+  if (!status.duration)
+    return;
+
+  const interval = setInterval(() => {
+
+    const progress = Math.floor(
+
+      (
+        status.current_time
+        /
+        status.duration
+      ) * 100
+
+    );
+
+    saveContinueWatching({
+
+      chapter,
+
+      title:
+        "Mount Hua Return",
+
+      image:
+        chapterImages[chapter],
+
+      progress,
+
+      currentTime:
+        status.current_time,
+
+      duration:
+        status.duration
+
+    });
+
+  }, 5000);
+
+  return () =>
+    clearInterval(interval);
+
+}, [
+
+  status.current_time,
+  status.duration,
+  chapter
+
+]);
+
 
   return (
 
