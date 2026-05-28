@@ -1,7 +1,3 @@
-# ============================================
-# PLAYBACK STATE
-# ============================================
-
 playback_state = {
 
     "playing": False,
@@ -10,6 +6,14 @@ playback_state = {
 
     "chapter": None,
 
-    "scene": 0
+    "scene": 0,
+
+    "current_time": 0,
+
+    "duration": 0,
+
+    "volume": 100,
+
+    "speed": 1.0
 
 }
