@@ -1,19 +1,31 @@
 from fastapi import APIRouter
-import threading
+
 
 from services.progress_service import (
     load_progress
 )
+from services.player_service import (
 
-from services.chapter_service import (
-    load_chapter_text,
-    build_scenes
+    get_current_time,
+    get_duration,
+    seek,
+    set_volume,
+    set_speed
+
+)
+
+
+from services.render_service import (
+    ensure_rendered
 )
 
 from services.player_service import (
-    start_player,
-    toggle_pause,
-    stop_player
+    start_audio,
+    pause_audio
+)
+
+from config.settings import (
+    DATA_DIR
 )
 
 from services.playback_state import (
@@ -33,15 +45,21 @@ def get_status():
 
     return {
 
-        "playing": playback_state["playing"],
+    "playing": playback_state["playing"],
 
-        "paused": playback_state["paused"],
+    "paused": playback_state["paused"],
 
-        "chapter": playback_state["chapter"],
+    "chapter": playback_state["chapter"],
 
-        "scene": playback_state["scene"],
+    "current_time": get_current_time(),
 
-        "saved_progress": progress
+    "duration": get_duration(),
+
+    "volume": playback_state["volume"],
+
+    "speed": playback_state["speed"],
+
+    "saved_progress": progress
 
     }
 
@@ -52,33 +70,30 @@ def get_status():
 @router.post("/play/{chapter}")
 def play_chapter(chapter: int):
 
-    text = load_chapter_text(
+    success = ensure_rendered(
         chapter
     )
 
-    if not text:
+    if not success:
 
         return {
-            "error": "Chapter not found"
+            "error": "Render failed"
         }
 
-    scenes = build_scenes(text)
+    audio_path = (
 
-    indexed_scenes = list(
-        enumerate(scenes)
+        DATA_DIR
+        / "rendered"
+        / str(chapter)
+        / "audio.wav"
+
     )
 
-    threading.Thread(
+    playback_state["chapter"] = (
+        chapter
+    )
 
-        target=start_player,
-
-        args=(
-            indexed_scenes,
-            chapter,
-            len(scenes)
-        )
-
-    ).start()
+    start_audio(audio_path)
 
     return {
 
@@ -88,7 +103,6 @@ def play_chapter(chapter: int):
         )
 
     }
-
 # ============================================
 # PAUSE
 # ============================================
@@ -96,7 +110,7 @@ def play_chapter(chapter: int):
 @router.post("/pause")
 def pause():
 
-    toggle_pause()
+    pause_audio()
 
     return {
 
@@ -104,70 +118,6 @@ def pause():
 
     }
 
-# ============================================
-# STOP
-# ============================================
-
-@router.post("/stop")
-def stop():
-
-    stop_player()
-
-    return {
-        "stopped": True
-    }
-
-# ============================================
-# CONTINUE
-# ============================================
-
-@router.post("/continue")
-def continue_playback():
-
-    progress = load_progress()
-
-    chapter = progress["chapter"]
-
-    text = load_chapter_text(
-        chapter
-    )
-
-    if not text:
-
-        return {
-            "error": "Chapter not found"
-        }
-
-    scenes = build_scenes(text)
-
-    indexed_scenes = list(
-        enumerate(scenes)
-    )
-
-    indexed_scenes = indexed_scenes[
-        progress["chunk"]:
-    ]
-
-    threading.Thread(
-
-        target=start_player,
-
-        args=(
-            indexed_scenes,
-            chapter,
-            len(scenes)
-        )
-
-    ).start()
-
-    return {
-
-        "message": (
-            f"Continuing chapter "
-            f"{chapter}"
-        )
-
-    }
 
 # ============================================
 # HEALTH
@@ -178,4 +128,56 @@ def health():
 
     return {
         "healthy": True
+    }
+
+
+# ============================================
+# SET VOLUME
+# ============================================
+
+@router.post("/volume/{volume}")
+def change_volume(volume: int):
+
+    set_volume(volume)
+
+    playback_state["volume"] = volume
+
+    return {
+
+        "volume": volume
+
+    }
+
+
+# ============================================
+# SET SPEED
+# ============================================
+
+@router.post("/speed/{speed}")
+def change_speed(speed: float):
+
+    set_speed(speed)
+
+    playback_state["speed"] = speed
+
+    return {
+
+        "speed": speed
+
+    }
+
+
+# ============================================
+# SEEK
+# ============================================
+
+@router.post("/seek/{seconds}")
+def seek_audio(seconds: int):
+
+    seek(seconds)
+
+    return {
+
+        "seeked_to": seconds
+
     }
