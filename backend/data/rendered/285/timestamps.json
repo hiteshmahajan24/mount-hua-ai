@@ -1,0 +1,891 @@
+[
+    {
+        "start": 0,
+        "end": 3.15,
+        "speaker": "narrator",
+        "text": "Tap the text to show or hide reading controls.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 3.15,
+        "end": 4.1,
+        "speaker": "unknown",
+        "text": "“What?!”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 4.1,
+        "end": 8.1,
+        "speaker": "narrator",
+        "text": "Hyung Young, wide-eyed, looked at the person in front of him.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 8.1,
+        "end": 11.399999999999999,
+        "speaker": "unknown",
+        "text": "“You have been looking for me since this morning, so what is it?!”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 11.399999999999999,
+        "end": 14.974999999999998,
+        "speaker": "narrator",
+        "text": "Baek Sang looked at Hyun Young, who was puzzled, and said,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 14.974999999999998,
+        "end": 17.374999999999996,
+        "speaker": "hyun young",
+        "text": "“I want to join the finance hall.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 17.374999999999996,
+        "end": 19.399999999999995,
+        "speaker": "hyun young",
+        "text": "“… in this situation?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 19.399999999999995,
+        "end": 27.049999999999997,
+        "speaker": "hyun young",
+        "text": "“Well, this might not be the right time to say it. But it is what my heart wants me to do, so I thoUght that moving forward as quickly as possible would be better.”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 27.049999999999997,
+        "end": 56.525,
+        "speaker": "narrator",
+        "text": "Hyun Young thoUght that this was a bit absurd but also felt a little curious too. It was about the time they would look for some Baek disciples to transfer over to the finance hall. It was also a good time for them to learn the ropes of the finance hall. It was hard to bring this up, but Mount Hua had started developing like a bamboo sprout recently, and the money kept flowing. It had become difficult to handle all their finances with their existing manpower. So shouldn’t he be happy if people were willing to transfer of their own volition?",
+        "emotion": "neutral"
+    },
+    {
+        "start": 56.525,
+        "end": 58.775,
+        "speaker": "hyun young",
+        "text": "“But you suddenly want to join?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 58.775,
+        "end": 61.0,
+        "speaker": "hyun young",
+        "text": "“I have been thinking about it, and…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 61.0,
+        "end": 64.65,
+        "speaker": "hyun young",
+        "text": "“I cannot beat the other disciples with my current skills.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 64.65,
+        "end": 67.35000000000001,
+        "speaker": "hyun young",
+        "text": "“You aren’t old enoUgh to think like that.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 67.35000000000001,
+        "end": 70.80000000000001,
+        "speaker": "narrator",
+        "text": "At Hyun Young’s words, Baek Sang shook his head,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 70.80000000000001,
+        "end": 76.35000000000001,
+        "speaker": "hyun young",
+        "text": "“No Elder!! I know myself very well. Even if they are below me now, they will soon become better than me in the future.”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 76.35000000000001,
+        "end": 79.025,
+        "speaker": "narrator",
+        "text": "Hyun Young’s expression twisted,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 79.025,
+        "end": 86.35000000000001,
+        "speaker": "hyun young",
+        "text": "“So, you are saying that you want to enter our Finance Hall because you cannot see results? Because this is the more comfortable way?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 86.35000000000001,
+        "end": 93.45,
+        "speaker": "narrator",
+        "text": "Hyun Young was shocked at Baek Sang’s resolute words. His heart, which was a little angry, calmed down to listen.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 93.45,
+        "end": 98.925,
+        "speaker": "hyun young",
+        "text": "“Elder!! I am a sahyung and sasuk for them. Even if I have less talent, I don’t want to be pushed around by them!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 98.925,
+        "end": 101.0,
+        "speaker": "narrator",
+        "text": "Hyun Young liked this.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 101.0,
+        "end": 103.825,
+        "speaker": "hyun young",
+        "text": "“After thinking deeply, I realized one thing!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 103.825,
+        "end": 106.85000000000001,
+        "speaker": "hyun young",
+        "text": "“The true power of Mount Hua comes from the Finance hall!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 106.85000000000001,
+        "end": 109.65,
+        "speaker": "narrator",
+        "text": "A light shone in the eyes of Baek Sang.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 109.65,
+        "end": 117.72500000000001,
+        "speaker": "baek sang",
+        "text": "“What is causing Mount Hua to regain its glory?!! Martial arts? Sure, talent? Sure. But more importantly, it is because Mount Hua has money now!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 117.72500000000001,
+        "end": 119.62500000000001,
+        "speaker": "baek sang",
+        "text": "“Right!! Right!! You understand!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 119.62500000000001,
+        "end": 130.22500000000002,
+        "speaker": "baek sang",
+        "text": "“Money!! If we have money, we have power!! I’d rather be a man who counts money and wears out his fingers than a man who rolls in sweat. Please accept me, elder!! No, Finance Hall Head!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 130.22500000000002,
+        "end": 150.925,
+        "speaker": "narrator",
+        "text": "Isn’t a snobby and vile attitude the best kind for the Finance Hall? ‘Actually, I did want Jo Gul.’ Jo Gul was from a merchant family, so he thoUght that Jo Gul would have eyes for management. But suddenly, he had seemingly become dyed drunk under Chung Myung and began to use his body more than his head. But listening to the words of Baek Sang, it seemed he would be more than talented enoUgh to lead the next Finance Hall!!!",
+        "emotion": "angry"
+    },
+    {
+        "start": 150.925,
+        "end": 153.95000000000002,
+        "speaker": "chung myung",
+        "text": "“I wonder. Right, did you think of this yourself?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 153.95000000000002,
+        "end": 156.20000000000002,
+        "speaker": "narrator",
+        "text": "Baek Sang scratched his head,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 156.20000000000002,
+        "end": 159.85000000000002,
+        "speaker": "baek sang",
+        "text": "“I thoUght about it while talking with Chung Myung last night.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 159.85000000000002,
+        "end": 161.50000000000003,
+        "speaker": "baek sang",
+        "text": "“Huh!!?With Chung Myung?”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 161.50000000000003,
+        "end": 175.92500000000004,
+        "speaker": "narrator",
+        "text": "A warm smile settled on the face of Hyun Young. You knew how to send talented people to the finance hall. It was clear that Chung Myung had recognized this child’s talent and had sent them his way. If not, how could a person make up their mind in just one night?!",
+        "emotion": "shocked"
+    },
+    {
+        "start": 175.92500000000004,
+        "end": 177.77500000000003,
+        "speaker": "chung myung",
+        "text": "“Are you sure about this?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 177.77500000000003,
+        "end": 181.55000000000004,
+        "speaker": "chung myung",
+        "text": "“Then I will inform Sect Leader and accept you as a member.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 181.55000000000004,
+        "end": 184.10000000000005,
+        "speaker": "narrator",
+        "text": "Baek Sang said with soft eyes,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 184.10000000000005,
+        "end": 195.07500000000005,
+        "speaker": "baek sang",
+        "text": "“I have no intention of forgetting my role as a warrior just because I belong to the Finance Hall. It will not be easy, but I will try to balance myself as much as possible.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 195.07500000000005,
+        "end": 204.62500000000006,
+        "speaker": "baek sang",
+        "text": "“It will not be an easy thing, but if you have the will to do it, I will not stop you. As for your training, I will not be micromanaging it. Keep that in mind.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 204.62500000000006,
+        "end": 206.95000000000005,
+        "speaker": "narrator",
+        "text": "Hyun Young smiled brightly...",
+        "emotion": "happy"
+    },
+    {
+        "start": 206.95000000000005,
+        "end": 210.45000000000005,
+        "speaker": "hyun young",
+        "text": "“People come and go, just as money ebbs and flows,”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 210.45000000000005,
+        "end": 216.12500000000006,
+        "speaker": "narrator",
+        "text": "said the Finance Hall Head. In the midst of all this, he would need people to watch all of this.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 216.12500000000006,
+        "end": 218.52500000000006,
+        "speaker": "hyun young",
+        "text": "“Then set this aside for a bit.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 218.52500000000006,
+        "end": 225.52500000000006,
+        "speaker": "hyun young",
+        "text": "“This isn’t something that can be done right away. Now that things have happened like this, you will need some time to learn what happens inside the hall.”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 225.52500000000006,
+        "end": 240.50000000000006,
+        "speaker": "narrator",
+        "text": "Baek Sang nodded his head. ‘He is trying to show me how it all works.’ He didn’t know what he would be shown, but whatever was shown would be worthwhile. So, he would have to remember what he saw for life. Hyun Young raised his voice and sat down, Immediately the door opened, and Wei Lishan entered.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 240.50000000000006,
+        "end": 243.12500000000006,
+        "speaker": "hyun young",
+        "text": "“I heard that Elder was looking for me.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 243.12500000000006,
+        "end": 253.35000000000005,
+        "speaker": "narrator",
+        "text": "Hyun Young looked at him and smiled, Wei Lishan sat down with a burdened expression... At first, the hospitality was nice, but as he kept getting it, he began to feel weird...",
+        "emotion": "happy"
+    },
+    {
+        "start": 253.35000000000005,
+        "end": 255.22500000000005,
+        "speaker": "hyun young",
+        "text": "“Isn’t this too much?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 255.22500000000005,
+        "end": 258.1,
+        "speaker": "narrator",
+        "text": "Hun Young laUghed at Wei Lishan’s question,",
+        "emotion": "happy"
+    },
+    {
+        "start": 258.1,
+        "end": 260.82500000000005,
+        "speaker": "hyun young",
+        "text": "“Listen carefully, Huayoung Gate Leader,”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 260.82500000000005,
+        "end": 264.17500000000007,
+        "speaker": "hyun young",
+        "text": "“You came here as the gate leader of Mount Hua right?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 264.17500000000007,
+        "end": 266.95000000000005,
+        "speaker": "hyun young",
+        "text": "“Does it belong to Mount Hua or not?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 266.95000000000005,
+        "end": 274.27500000000003,
+        "speaker": "narrator",
+        "text": "Wei Lishan thoUght for a moment. It was because he didn’t know the intention behind this question, so he was a bit hesitant,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 274.27500000000003,
+        "end": 277.00000000000006,
+        "speaker": "hyun young",
+        "text": "“Of course, we belong to Mount Hua…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 277.00000000000006,
+        "end": 285.40000000000003,
+        "speaker": "hyun young",
+        "text": "“… is what I think, but the main sect and the gates were distinctly separated. Even if not that, shouldn’t we be referred to as a sub-sect instead these slang words for family?!”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 285.40000000000003,
+        "end": 287.65000000000003,
+        "speaker": "hyun young",
+        "text": "“Right. Right. You know your thing.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 287.65000000000003,
+        "end": 293.725,
+        "speaker": "narrator",
+        "text": "There was a little relief on Wei Lishan’s face, who had managed to give the answer Hyun Young wanted.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 293.725,
+        "end": 296.225,
+        "speaker": "hyun young",
+        "text": "“Then why do you ask such a thing?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 296.225,
+        "end": 304.90000000000003,
+        "speaker": "narrator",
+        "text": "Hyun Young took off the smile on his face. At first, he looked kind, but now his two eyes were smiling slyly like they were up to something.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 304.90000000000003,
+        "end": 307.3,
+        "speaker": "hyun young",
+        "text": "“Aren’t you thinking of making money?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 307.3,
+        "end": 314.425,
+        "speaker": "narrator",
+        "text": "Hyun Young rubbed his fingers together, It was at that moment Wei Lishan realized something terrible was happening.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 314.425,
+        "end": 324.175,
+        "speaker": "narrator",
+        "text": "The day of the finals came quickly. As if the silence from the previous two days had been a lie, as soon as the sun broke the horizon, people began flocking in.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 324.175,
+        "end": 325.875,
+        "speaker": "hyun young",
+        "text": "“Today is the finals!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 325.875,
+        "end": 329.775,
+        "speaker": "hyun young",
+        "text": "“Until now, it has just been light entertainment!! Now comes the real fights!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 329.775,
+        "end": 333.47499999999997,
+        "speaker": "hyun young",
+        "text": "“Right!! True!! How can we go back after watching just the preliminary rounds!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 333.47499999999997,
+        "end": 362.87499999999994,
+        "speaker": "narrator",
+        "text": "Everyone was looking excited. A true battle wouldn’t look much different from today. AlthoUgh it was said that the prestigious sects had sent their strongest students, finally the wheat had been separated from the chaff. If such strong people were put against one another, people were bound to show up and watch. How many of them would one day become masters?! The finals would be held, and this was where even famous people would get filtered out. Wasn’t it known that those who gained fame here are the same people who would lead the world tomorrow?! As a result, the crowd was much larger than before.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 362.87499999999994,
+        "end": 366.12499999999994,
+        "speaker": "hyun young",
+        "text": "“What is with the people in the back?! Are they selling something?!”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 366.12499999999994,
+        "end": 370.8999999999999,
+        "speaker": "hyun young",
+        "text": "“Since there are so many people here, food has to be sold. Chung Myung!! There are sugar candies here!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 370.8999999999999,
+        "end": 376.6499999999999,
+        "speaker": "narrator",
+        "text": "Chung Myung looked around. Behind the crowd, food vendors were selling their refreshments.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 376.6499999999999,
+        "end": 379.4749999999999,
+        "speaker": "chung myung",
+        "text": "“Huh? It seems a lot of people flocked over.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 379.4749999999999,
+        "end": 381.69999999999993,
+        "speaker": "narrator",
+        "text": "Hyun Jong smiled at this,",
+        "emotion": "happy"
+    },
+    {
+        "start": 381.69999999999993,
+        "end": 383.67499999999995,
+        "speaker": "hyun jong",
+        "text": "“hehe.So many came.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 383.67499999999995,
+        "end": 388.69999999999993,
+        "speaker": "hyun jong",
+        "text": "“It seems like I am getting hungry from this. Sect Leader, would you like to have something?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 388.69999999999993,
+        "end": 392.74999999999994,
+        "speaker": "hyun jong",
+        "text": "“No. I will have to go up to the podium soon, so I don’t have time to eat.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 392.74999999999994,
+        "end": 397.74999999999994,
+        "speaker": "narrator",
+        "text": "He looked at the place with a smile and tilted his head like he had found something.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 397.74999999999994,
+        "end": 402.34999999999997,
+        "speaker": "hyun jong",
+        "text": "“But it doesn’t look like they are selling anything, so why are people gathered over there?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 402.34999999999997,
+        "end": 406.24999999999994,
+        "speaker": "narrator",
+        "text": "At Hyun Jong’s words, Hyun Young narrowed his eyes.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 406.24999999999994,
+        "end": 408.97499999999997,
+        "speaker": "hyun young",
+        "text": "“Red and blue… table? Um… maybe a bet?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 408.97499999999997,
+        "end": 410.92499999999995,
+        "speaker": "hyun young",
+        "text": "“Doesn’t it look that way?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 410.92499999999995,
+        "end": 413.87499999999994,
+        "speaker": "narrator",
+        "text": "Hyun Jong’s jaw was dangled open,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 413.87499999999994,
+        "end": 416.42499999999995,
+        "speaker": "narrator",
+        "text": "On the holy grounds of Shaolin?",
+        "emotion": "neutral"
+    },
+    {
+        "start": 416.42499999999995,
+        "end": 424.275,
+        "speaker": "hyun jong",
+        "text": "“hehe.Does this mean Shaolin allowed it? No, even if they didn’t allow it, the man has the courage to do so. I have lived long enoUgh to see this.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 424.275,
+        "end": 427.575,
+        "speaker": "hyun jong",
+        "text": "“Haha... Right... I thoUght only our kids would make trouble...”",
+        "emotion": "happy"
+    },
+    {
+        "start": 427.575,
+        "end": 429.84999999999997,
+        "speaker": "hyun jong",
+        "text": "“Right. I hope they aren’t… uh…?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 429.84999999999997,
+        "end": 436.34999999999997,
+        "speaker": "narrator",
+        "text": "Hyun Jong tilted his head. There was something strange about the merchant who was bringing the people to the back…",
+        "emotion": "neutral"
+    },
+    {
+        "start": 436.34999999999997,
+        "end": 439.825,
+        "speaker": "hyun jong",
+        "text": "“Haha...Same here... Doesn’t he look like the Huayoung Gate’s leader?”",
+        "emotion": "happy"
+    },
+    {
+        "start": 439.825,
+        "end": 441.47499999999997,
+        "speaker": "hyun jong",
+        "text": "“Right. Too similar…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 441.47499999999997,
+        "end": 443.95,
+        "speaker": "narrator",
+        "text": "So similar they looked the same…",
+        "emotion": "neutral"
+    },
+    {
+        "start": 443.95,
+        "end": 446.3,
+        "speaker": "hyun jong",
+        "text": "“No, why is Wei Lishan there…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 446.3,
+        "end": 451.55,
+        "speaker": "narrator",
+        "text": "Wei Lishan opened the fan in his hand to half-cover his face and raised his voice,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 451.55,
+        "end": 460.1,
+        "speaker": "hyun jong",
+        "text": "“Come on up!! You have to bet before the start!! Before the start!! You cannot bet once it starts!! Those who have bet money take a token!! Tokens without seals will not be exchanged, so never lose them!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 460.1,
+        "end": 464.35,
+        "speaker": "narrator",
+        "text": "Seal? Token? Exchange? Hyun Jong, shocked, mumbled,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 464.35,
+        "end": 467.52500000000003,
+        "speaker": "hyun jong",
+        "text": "“… looks like he has opened a gambling table.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 467.52500000000003,
+        "end": 470.37500000000006,
+        "speaker": "hyun jong",
+        "text": "“You mean the gate leader just opened a stall?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 470.37500000000006,
+        "end": 472.57500000000005,
+        "speaker": "hyun jong",
+        "text": "“Ah no, that crazy man?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 472.57500000000005,
+        "end": 488.975,
+        "speaker": "narrator",
+        "text": "A guy gambling in Shaolin who was from Mount Hua!! Hyun Jong’s face trembled and kept alternating between red and white over and over again. And when he came to his senses, he looked around, Huayoung Gate Leader!! The Wei Lishan whom he knew wasn’t the kind of person to do such things. There had to be someone else who had made him do it!!!",
+        "emotion": "angry"
+    },
+    {
+        "start": 488.975,
+        "end": 491.70000000000005,
+        "speaker": "hyun jong",
+        "text": "“Chung Myung!! Where is that guy?!! Chung Myung!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 491.70000000000005,
+        "end": 497.62500000000006,
+        "speaker": "narrator",
+        "text": "Chung Myung, who was buried in his sahyungs, poked his head out and hurried over to Hyun Jong.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 497.62500000000006,
+        "end": 499.57500000000005,
+        "speaker": "chung myung",
+        "text": "“You bastard!! What have you done!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 499.57500000000005,
+        "end": 503.45000000000005,
+        "speaker": "chung myung",
+        "text": "“That!! Wasn’t it you… you asked for that gambling table to be set up?”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 503.45000000000005,
+        "end": 506.42500000000007,
+        "speaker": "narrator",
+        "text": "Chung Myung looked to where Wei Lishan was,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 506.42500000000007,
+        "end": 510.42500000000007,
+        "speaker": "chung myung",
+        "text": "“Wow, that man isn’t normal either. Why didn’t I think of this?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 510.42500000000007,
+        "end": 521.7500000000001,
+        "speaker": "narrator",
+        "text": "Hyun Jong was confused as Chung Myung really didn’t seem to know about this. It wasn’t Chung Myung… Then he heard a low coUgh from behind, and Hyun Jong turned his head like lightning.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 521.7500000000001,
+        "end": 529.8250000000002,
+        "speaker": "narrator",
+        "text": "Hyun Young, his beloved sajae, was smiling with a bashful smile. In a voice that had lost its life, Hyun Jong mumbled,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 529.8250000000002,
+        "end": 531.1500000000002,
+        "speaker": "hyun young",
+        "text": "“What are you saying?!”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 531.1500000000002,
+        "end": 532.8750000000002,
+        "speaker": "hyun young",
+        "text": "“What are you talking about?!”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 532.8750000000002,
+        "end": 535.4500000000003,
+        "speaker": "narrator",
+        "text": "Hyun Young shrugged his shoulders.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 535.4500000000003,
+        "end": 541.5250000000003,
+        "speaker": "hyun young",
+        "text": "“What Wei Lishan is doing is his own thing. Even if I am an elder, I cannot interfere in the workings of the sub-sect.”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 541.5250000000003,
+        "end": 544.0000000000003,
+        "speaker": "hyun young",
+        "text": "“… so, the gambling? In Shaolin?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 544.0000000000003,
+        "end": 551.0250000000003,
+        "speaker": "narrator",
+        "text": "Hyun Young looked around as he approached Hyun Jong and wrapped his arms around the man’s shoulder, and pulled him in,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 551.0250000000003,
+        "end": 553.3750000000003,
+        "speaker": "hyun young",
+        "text": "“I will give him half the earnings.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 553.3750000000003,
+        "end": 563.9250000000003,
+        "speaker": "hyun young",
+        "text": "“The people here have more money than expected. The people who started that over there also agreed to give us half the money they earned. There was nothing saying not to gamble here. I went and figured it out.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 563.9250000000003,
+        "end": 567.5500000000003,
+        "speaker": "hyun young",
+        "text": "“Huhuhu.Don’t worry Sect Leader. We can make a lot of money…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 567.5500000000003,
+        "end": 569.5250000000003,
+        "speaker": "hyun young",
+        "text": "“Yah!! You–full crazy idiot!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 569.5250000000003,
+        "end": 574.8250000000003,
+        "speaker": "narrator",
+        "text": "Hyun Jong, who was trembling in anger, kicked Hyun Young on the ass. And screamed,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 574.8250000000003,
+        "end": 580.8250000000003,
+        "speaker": "hyun young",
+        "text": "“I told Chung Myung to not make trouble and now an elder is the one who is doing it?!! Is this what an elder in the sect does!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 580.8250000000003,
+        "end": 583.0250000000003,
+        "speaker": "hyun young",
+        "text": "“Shhh!! Lower your voice!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 583.0250000000003,
+        "end": 586.7250000000004,
+        "speaker": "narrator",
+        "text": "Hyun Young came back and said it wasn’t a huge deal.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 586.7250000000004,
+        "end": 590.3750000000003,
+        "speaker": "hyun young",
+        "text": "“This is what Huayoung did. Mount Hua has nothing to do with this.”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 590.3750000000003,
+        "end": 597.5000000000003,
+        "speaker": "narrator",
+        "text": "Hyun Jong grabbed his neck at the pain coursing up it. This damned scoundrel!! Now even the elders were doing crazy things!!!",
+        "emotion": "angry"
+    },
+    {
+        "start": 597.5000000000003,
+        "end": 599.8250000000004,
+        "speaker": "hyun jong",
+        "text": "“Y-You bastard!! You have no pride!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 599.8250000000004,
+        "end": 603.9500000000004,
+        "speaker": "hyun jong",
+        "text": "“Where is the pride in Mount Hua? And does pride make us money? We need money!! Money!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 603.9500000000004,
+        "end": 607.5000000000003,
+        "speaker": "narrator",
+        "text": "Hyun Young smiled and pulled Chung Myung to himself,",
+        "emotion": "happy"
+    },
+    {
+        "start": 607.5000000000003,
+        "end": 613.3000000000003,
+        "speaker": "chung myung",
+        "text": "“Don’t worry. This guy will save the pride and face of Mount Hua. Isn’t that right Chung Myung?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 613.3000000000003,
+        "end": 615.3250000000003,
+        "speaker": "chung myung",
+        "text": "“Yes. But can I bet too?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 615.3250000000003,
+        "end": 617.3500000000003,
+        "speaker": "chung myung",
+        "text": "“Yes. Will you bet on you winning?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 617.3500000000003,
+        "end": 619.8750000000002,
+        "speaker": "chung myung",
+        "text": "“Right!! Let’s see the big money we make!!hahah!!”!",
+        "emotion": "angry"
+    },
+    {
+        "start": 619.8750000000002,
+        "end": 628.7000000000003,
+        "speaker": "narrator",
+        "text": "Hyun Jong closed his eyes as he looked at the two of them smiling in a similar way. ‘To overrule their sect leader. This is a sect which has no perfect answer!!’!",
+        "emotion": "angry"
+    },
+    {
+        "start": 628.7000000000003,
+        "end": 638.0000000000002,
+        "speaker": "narrator",
+        "text": "Hyun Jong’s life seemed to be getting better and better each day on Mount Hua… but it also seemed like his life was getting equally more difficult!! Return of the Mount Hua Sect!",
+        "emotion": "angry"
+    }
+]
