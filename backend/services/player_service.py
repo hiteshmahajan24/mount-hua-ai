@@ -16,6 +16,10 @@ from services.progress_service import (
     save_progress
 )
 
+from services.playback_state import (
+    playback_state
+)
+
 # ============================================
 # SETTINGS
 # ============================================
@@ -125,6 +129,10 @@ def consumer():
 
         current_chunk = real_index
 
+        playback_state["scene"] = (
+            real_index
+        )
+
         # ====================================
         # PRINT ONLY ON NEW SCENE
         # ====================================
@@ -180,7 +188,8 @@ def consumer():
 def start_player(
     indexed_chunks,
     chapter_num,
-    total
+    total,
+    
 ):
 
     global paused
@@ -201,6 +210,12 @@ def start_player(
     current_chapter = chapter_num
 
     total_chunks = total
+
+    playback_state["playing"] = True
+
+    playback_state["paused"] = False
+
+    playback_state["chapter"] = chapter_num
 
     # ========================================
     # CLEAR OLD QUEUE
@@ -241,6 +256,8 @@ def toggle_pause():
 
     paused = not paused
 
+    playback_state["paused"] = paused
+
     if paused:
 
         print("\n⏸ PAUSED")
@@ -254,6 +271,10 @@ def stop_player():
     global stopped
 
     stopped = True
+
+    playback_state["playing"] = False
+
+    playback_state["paused"] = False
 
     stop_audio()
 
