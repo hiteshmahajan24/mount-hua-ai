@@ -1,9 +1,12 @@
-kokoro
+
+fastapi
+uvicorn
+python-vlc
 sounddevice
 soundfile
 numpy
+kokoro
 torch
-spacy
-fastapi
-uvicorn
+huggingface_hub
 python-multipart
+aiofiles

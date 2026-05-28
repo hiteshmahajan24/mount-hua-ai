@@ -67,3 +67,42 @@ backend/
 ├── scraping/
 ├── tests/
 └── main.py
+
+
+
+```
+# Quick Start
+
+## 1. Clone Repository
+
+```bash
+git clone <repo-url>
+````
+
+## 2. Open Project
+
+```bash
+cd mount_hua_project
+```
+
+## 3. Run Setup
+
+```bash
+python setup_and_run.py
+```
+
+This will:
+
+* install backend requirements
+* install frontend dependencies
+* check FFmpeg
+* launch backend + frontend automatically
+
+Frontend:
+http://localhost:5173
+
+Backend:
+http://127.0.0.1:8000
+
+
+```
