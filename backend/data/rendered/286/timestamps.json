@@ -1,702 +1,1206 @@
 [
     {
         "start": 0,
-        "end": 69.725,
+        "end": 3.15,
         "speaker": "narrator",
-        "text": "Tap the text to show or hide reading controls. Just because the finals had started, didn’t mean anything had changed. Was it because the atmosphere had already been a little more serious, and the expectations could only be a little higher?! The seats of the sect leaders were still up on the podium. The only thing that had changed, albeit minutely, was the layout. ‘The Nine Great Sects One Union. And it was the same for the Five Great Families.’ Hyun Jong glanced down at his chair. No, he confirmed that itwashis chair. Everyone had been shifted, and now his seat wasn’t in the second row… it was now in the frontmost row. His chair was added right next to the seats of the Nine Great Sects and Five Great Families. -The seating arrangements really don’t matter, but I am a little embarrassed because the sect leader with the most disciples in the finals is made to sit in the second row. The words of Tang Gunak had made a decisive blow. In the end, the sect leaders who had sensitive ears simply agreed and moved. AlthoUgh this was only an evaluation based on their performance, Mount Hua was recognized as good enoUgh to stand shoulder-to-shoulder with the other sects. If things had been normal, blinking at the man was the only consideration they needed to show. But only if things were normal. Unfortunately, even the current Hyun Jong wasn’t normal. The sounds of the other sect leaders gossiping could be heard around him.",
+        "text": "Tap the text to show or hide reading controls.",
         "emotion": "shocked"
     },
     {
-        "start": 69.725,
-        "end": 73.175,
+        "start": 3.15,
+        "end": 7.675000000000001,
+        "speaker": "narrator",
+        "text": "Just because the finals had started, didn’t mean anything had changed.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 7.675000000000001,
+        "end": 14.675,
+        "speaker": "narrator",
+        "text": "Was it because the atmosphere had already been a little more serious, and the expectations could only be a little higher?",
+        "emotion": "neutral"
+    },
+    {
+        "start": 14.675,
+        "end": 18.225,
+        "speaker": "narrator",
+        "text": "The seats of the sect leaders were still up on the podium.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 18.225,
+        "end": 22.5,
+        "speaker": "narrator",
+        "text": "The only thing that had changed, albeit minutely, was the layout.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 22.5,
+        "end": 25.175,
+        "speaker": "narrator",
+        "text": "‘The Nine Great Sects One Union.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 25.175,
+        "end": 30.85,
+        "speaker": "narrator",
+        "text": "And it was the same for the Five Great Families.’ Hyun Jong glanced down at his chair.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 30.85,
+        "end": 33.7,
+        "speaker": "narrator",
+        "text": "No, he confirmed that itwashis chair.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 33.7,
+        "end": 40.125,
+        "speaker": "narrator",
+        "text": "Everyone had been shifted, and now his seat wasn’t in the second row… it was now in the frontmost row.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 40.125,
+        "end": 45.9,
+        "speaker": "narrator",
+        "text": "His chair was added right next to the seats of the Nine Great Sects and Five Great Families.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 45.9,
+        "end": 55.7,
+        "speaker": "narrator",
+        "text": "-The seating arrangements really don’t matter, but I am a little embarrassed because the sect leader with the most disciples in the finals is made to sit in the second row.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 55.7,
+        "end": 59.275000000000006,
+        "speaker": "narrator",
+        "text": "The words of Tang Gunak had made a decisive blow.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 59.275000000000006,
+        "end": 64.375,
+        "speaker": "narrator",
+        "text": "In the end, the sect leaders who had sensitive ears simply agreed and moved.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 64.375,
+        "end": 74.15,
+        "speaker": "narrator",
+        "text": "AlthoUgh this was only an evaluation based on their performance, Mount Hua was recognized as good enoUgh to stand shoulder-to-shoulder with the other sects.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 74.15,
+        "end": 79.5,
+        "speaker": "narrator",
+        "text": "If things had been normal, blinking at the man was the only consideration they needed to show.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 79.5,
+        "end": 81.8,
+        "speaker": "narrator",
+        "text": "But only if things were normal.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 81.8,
+        "end": 85.925,
+        "speaker": "narrator",
+        "text": "Unfortunately, even the current Hyun Jong wasn’t normal.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 85.925,
+        "end": 90.425,
+        "speaker": "narrator",
+        "text": "The sounds of the other sect leaders gossiping could be heard around him.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 90.425,
+        "end": 93.875,
         "speaker": "hyun jong",
-        "text": "“People are gambling in the holy land of Shaolin, what the hell?!”",
+        "text": "“People are gambling in the holy land of Shaolin, what the hell?”",
         "emotion": "shocked"
     },
     {
-        "start": 73.175,
-        "end": 74.875,
+        "start": 93.875,
+        "end": 95.575,
         "speaker": "hyun jong",
-        "text": "“What sect are they from?!”",
+        "text": "“What sect are they from?”",
         "emotion": "shocked"
     },
     {
-        "start": 74.875,
-        "end": 78.075,
+        "start": 95.575,
+        "end": 98.775,
         "speaker": "hyun jong",
         "text": "“I heard he is the gate leader of the Huayoung Gate.”",
         "emotion": "neutral"
     },
     {
-        "start": 78.075,
-        "end": 81.425,
+        "start": 98.775,
+        "end": 102.125,
         "speaker": "hyun jong",
         "text": "“Huayoung Gate? Has anyone ever heard of them before?”",
         "emotion": "neutral"
     },
     {
-        "start": 81.425,
-        "end": 94.675,
+        "start": 102.125,
+        "end": 108.7,
         "speaker": "narrator",
-        "text": "Whenever Huayoung Gate and gambling came up, Hyun Jong flinched as if someone had poked him in the ass. As he had thoUght, it might be better to run away right now. But since he had already climbed up the podium, he couldn’t do it.",
+        "text": "Whenever Huayoung Gate and gambling came up, Hyun Jong flinched as if someone had poked him in the ass.",
         "emotion": "neutral"
     },
     {
-        "start": 94.675,
-        "end": 101.55,
+        "start": 108.7,
+        "end": 112.775,
+        "speaker": "narrator",
+        "text": "As he had thoUght, it might be better to run away right now.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 112.775,
+        "end": 116.42500000000001,
+        "speaker": "narrator",
+        "text": "But since he had already climbed up the podium, he couldn’t do it.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 116.42500000000001,
+        "end": 123.30000000000001,
         "speaker": "narrator",
         "text": "At that moment, Wudang Sect’s Heo Do Jinin smiled subtly and opened his mouth, In a slightly low voice, he mumbled,",
         "emotion": "happy"
     },
     {
-        "start": 101.55,
-        "end": 103.975,
-        "speaker": "sect leader",
+        "start": 123.30000000000001,
+        "end": 125.72500000000001,
+        "speaker": "hyun jong",
         "text": "“It seems like a place I know?”",
         "emotion": "neutral"
     },
     {
-        "start": 103.975,
-        "end": 120.3,
+        "start": 125.72500000000001,
+        "end": 128.925,
         "speaker": "narrator",
-        "text": "Hyun Jong’s face paled as he looked at him... In the past, Mount Hua had collided with Wudang for Huayoung... Heo Do Jinin, who was from Wudang, was bound to know that Huayoung Gate was from Mount Hua... Heo Do Jinin looked at Hyun Jong and smiled... But Hyun Jong felt like this smile was from a viper...",
+        "text": "Hyun Jong’s face paled as he looked at him.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 128.925,
+        "end": 132.875,
+        "speaker": "narrator",
+        "text": "In the past, Mount Hua had collided with Wudang for Huayoung.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 132.875,
+        "end": 138.725,
+        "speaker": "narrator",
+        "text": "Heo Do Jinin, who was from Wudang, was bound to know that Huayoung Gate was from Mount Hua.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 138.725,
+        "end": 141.875,
+        "speaker": "narrator",
+        "text": "Heo Do Jinin looked at Hyun Jong and smiled.",
         "emotion": "happy"
     },
     {
-        "start": 120.3,
-        "end": 122.35,
+        "start": 141.875,
+        "end": 145.425,
+        "speaker": "narrator",
+        "text": "But Hyun Jong felt like this smile was from a viper.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 145.425,
+        "end": 147.47500000000002,
         "speaker": "hyun jong",
         "text": "“You know the Huayoung Gate?”",
         "emotion": "neutral"
     },
     {
-        "start": 122.35,
-        "end": 126.89999999999999,
+        "start": 147.47500000000002,
+        "end": 152.02500000000003,
         "speaker": "hyun jong",
-        "text": "“How is the Wudang Sect able to know such a place?! Come on, speak up, Sect Leader.”",
+        "text": "“How is the Wudang Sect able to know such a place? Come on, speak up, Sect Leader.”",
         "emotion": "shocked"
     },
     {
-        "start": 126.89999999999999,
-        "end": 128.7,
+        "start": 152.02500000000003,
+        "end": 153.82500000000005,
         "speaker": "hyun jong",
         "text": "“We need to act now.”",
         "emotion": "neutral"
     },
     {
-        "start": 128.7,
-        "end": 133.6,
+        "start": 153.82500000000005,
+        "end": 158.72500000000005,
         "speaker": "narrator",
         "text": "Hearing this, Hyun Jong was sweating bullets trying to think about how to deal with all this,",
         "emotion": "shocked"
     },
     {
-        "start": 133.6,
-        "end": 135.25,
+        "start": 158.72500000000005,
+        "end": 160.37500000000006,
         "speaker": "hyun jong",
         "text": "“Is there a problem?”",
         "emotion": "neutral"
     },
     {
-        "start": 135.25,
-        "end": 139.975,
+        "start": 160.37500000000006,
+        "end": 165.10000000000005,
         "speaker": "narrator",
         "text": "Tang Gunak, who noticed this, spoke up and said to the other sect leaders,",
         "emotion": "neutral"
     },
     {
-        "start": 139.975,
-        "end": 145.525,
+        "start": 165.10000000000005,
+        "end": 170.65000000000006,
         "speaker": "sect leader",
         "text": "“Right. Doesn’t that mean it is forbidden? Would we even care about gambling if it wasn’t in Shaolin?”",
         "emotion": "neutral"
     },
     {
-        "start": 145.525,
-        "end": 151.025,
+        "start": 170.65000000000006,
+        "end": 176.15000000000006,
         "speaker": "sect leader",
         "text": "“You do not understand, it means that the Shaolin will be the one handling the situation here.”",
         "emotion": "neutral"
     },
     {
-        "start": 151.025,
-        "end": 153.725,
+        "start": 176.15000000000006,
+        "end": 178.85000000000005,
         "speaker": "narrator",
         "text": "At that, everyone shut their mouths.",
         "emotion": "neutral"
     },
     {
-        "start": 153.725,
-        "end": 165.95,
+        "start": 178.85000000000005,
+        "end": 191.07500000000005,
         "speaker": "sect leader",
         "text": "“I understand you were worried, but please be careful with your words and actions. Each and every rebuke could be considered a criticism of Shaolin. If one has common sense, who would dare open such a stall without Shaolin’s permission?”",
         "emotion": "neutral"
     },
     {
-        "start": 165.95,
-        "end": 171.92499999999998,
+        "start": 191.07500000000005,
+        "end": 194.80000000000004,
         "speaker": "narrator",
-        "text": "At those words, and in unison, all looked at the Abbot... The Abbot, who looked at their expressions, smiled,",
+        "text": "At those words, and in unison, all looked at the Abbot.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 194.80000000000004,
+        "end": 197.87500000000003,
+        "speaker": "narrator",
+        "text": "The Abbot, who looked at their expressions, smiled,",
         "emotion": "happy"
     },
     {
-        "start": 171.92499999999998,
-        "end": 173.6,
+        "start": 197.87500000000003,
+        "end": 199.55000000000004,
         "speaker": "sect leader",
         "text": "“Isn’t that alright?”",
         "emotion": "neutral"
     },
     {
-        "start": 173.6,
-        "end": 176.6,
+        "start": 199.55000000000004,
+        "end": 202.55000000000004,
         "speaker": "sect leader",
         "text": "“But… this is the sacred ground of Shaolin…”",
         "emotion": "neutral"
     },
     {
-        "start": 176.6,
-        "end": 181.2,
+        "start": 202.55000000000004,
+        "end": 207.15000000000003,
         "speaker": "narrator",
         "text": "He was a bit flustered with so many gazes on him, but the abbot smiled,",
         "emotion": "happy"
     },
     {
-        "start": 181.2,
-        "end": 184.54999999999998,
+        "start": 207.15000000000003,
+        "end": 210.50000000000003,
         "speaker": "sect leader",
         "text": "“I never thoUght of Shaolin as a sacred place.”",
         "emotion": "neutral"
     },
     {
-        "start": 184.54999999999998,
-        "end": 187.6,
+        "start": 210.50000000000003,
+        "end": 213.55000000000004,
         "speaker": "narrator",
         "text": "The Abbot lightly joined his hands together..",
         "emotion": "neutral"
     },
     {
-        "start": 187.6,
-        "end": 199.4,
+        "start": 213.55000000000004,
+        "end": 225.35000000000005,
         "speaker": "sect leader",
-        "text": "“It is impossible to say that Shaolin is a common temple like any other in the world. Having said that, all we have is a lot of people who believe in this. Is it such a great place if so many gather, but are unable to enjoy themselves?!”",
+        "text": "“It is impossible to say that Shaolin is a common temple like any other in the world. Having said that, all we have is a lot of people who believe in this. Is it such a great place if so many gather, but are unable to enjoy themselves?”",
         "emotion": "shocked"
     },
     {
-        "start": 199.4,
-        "end": 203.975,
+        "start": 225.35000000000005,
+        "end": 229.92500000000004,
         "speaker": "narrator",
         "text": "Seeing this, the sect leaders all coUghed and agreed, and the Abbot smiled,",
         "emotion": "happy"
     },
     {
-        "start": 203.975,
-        "end": 211.475,
+        "start": 229.92500000000004,
+        "end": 237.42500000000004,
         "speaker": "sect leader",
-        "text": "“Isn’t it enoUgh that I am strict with my disciples?! It is impossible for us to scold other sect’s disciples who came to watch the competition.”",
+        "text": "“Isn’t it enoUgh that I am strict with my disciples? It is impossible for us to scold other sect’s disciples who came to watch the competition.”",
         "emotion": "shocked"
     },
     {
-        "start": 211.475,
-        "end": 215.125,
+        "start": 237.42500000000004,
+        "end": 241.07500000000005,
         "speaker": "narrator",
         "text": "As soon as those words fell, words of praise poured out,",
         "emotion": "neutral"
     },
     {
-        "start": 215.125,
-        "end": 217.275,
+        "start": 241.07500000000005,
+        "end": 243.22500000000005,
         "speaker": "sect leader",
         "text": "“As expected of the Abbot.”",
         "emotion": "neutral"
     },
     {
-        "start": 217.275,
-        "end": 220.975,
+        "start": 243.22500000000005,
+        "end": 246.92500000000004,
         "speaker": "sect leader",
         "text": "“Huhu.Right, this should be a place that is enjoyed to the fullest.”",
         "emotion": "neutral"
     },
     {
-        "start": 220.975,
-        "end": 262.725,
+        "start": 246.92500000000004,
+        "end": 249.77500000000003,
         "speaker": "narrator",
-        "text": "It didn’t matter if the logic was right. If the Abbot of the Shaolin Sect says so, it is irrefutable. All the people gathered here were sect leaders, leading some of the largest sects of the world, yet no one dared speak back to this man. That was the strength that Shaolin had built. Hyun Jong normally would have felt thrilled at what he saw, but now he could only sigh in relief as this matter had been resolved. ‘It feels like my lifespan has been reduced by ten years.’ After regaining his youth, which seemingly had extended his life, this buffer between death seemed to be eroded away with each day. Hyun Jong secretly sighed, and looked at the disciples of Mount Hua with sharp eyes. ‘It is fine to lose my life, but you need to get good results in this competition unconditionally!!’ Their name had already been blown away, so get the right results!! At least the results!! You damned idiots!!!",
+        "text": "It didn’t matter if the logic was right.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 249.77500000000003,
+        "end": 254.22500000000002,
+        "speaker": "narrator",
+        "text": "If the Abbot of the Shaolin Sect says so, it is irrefutable.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 254.22500000000002,
+        "end": 262.27500000000003,
+        "speaker": "narrator",
+        "text": "All the people gathered here were sect leaders, leading some of the largest sects of the world, yet no one dared speak back to this man.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 262.27500000000003,
+        "end": 265.12500000000006,
+        "speaker": "narrator",
+        "text": "That was the strength that Shaolin had built.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 265.12500000000006,
+        "end": 273.75000000000006,
+        "speaker": "narrator",
+        "text": "Hyun Jong normally would have felt thrilled at what he saw, but now he could only sigh in relief as this matter had been resolved.",
+        "emotion": "sad"
+    },
+    {
+        "start": 273.75000000000006,
+        "end": 285.37500000000006,
+        "speaker": "narrator",
+        "text": "‘It feels like my lifespan has been reduced by ten years.’ After regaining his youth, which seemingly had extended his life, this buffer between death seemed to be eroded away with each day.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 285.37500000000006,
+        "end": 291.6000000000001,
+        "speaker": "narrator",
+        "text": "Hyun Jong secretly sighed, and looked at the disciples of Mount Hua with sharp eyes.",
+        "emotion": "sad"
+    },
+    {
+        "start": 291.6000000000001,
+        "end": 299.9000000000001,
+        "speaker": "narrator",
+        "text": "‘It is fine to lose my life, but you need to get good results in this competition unconditionally!’ Their name had already been blown away, so get the right results!",
         "emotion": "angry"
     },
     {
-        "start": 262.725,
-        "end": 266.175,
+        "start": 299.9000000000001,
+        "end": 301.55000000000007,
+        "speaker": "narrator",
+        "text": "At least the results!",
+        "emotion": "angry"
+    },
+    {
+        "start": 301.55000000000007,
+        "end": 303.20000000000005,
+        "speaker": "narrator",
+        "text": "You damned idiots!",
+        "emotion": "angry"
+    },
+    {
+        "start": 303.20000000000005,
+        "end": 306.65000000000003,
         "speaker": "hyun jong",
         "text": "“Does it seem like Sect Leader is having a hard time?”",
         "emotion": "neutral"
     },
     {
-        "start": 266.175,
-        "end": 271.175,
+        "start": 306.65000000000003,
+        "end": 311.65000000000003,
         "speaker": "narrator",
         "text": "At Baek Cheon’s words, Chung Myung looked away, not being able to understand,",
         "emotion": "neutral"
     },
     {
-        "start": 271.175,
-        "end": 273.125,
+        "start": 311.65000000000003,
+        "end": 313.6,
         "speaker": "chung myung",
         "text": "“The gambling one. That…”",
         "emotion": "neutral"
     },
     {
-        "start": 273.125,
-        "end": 277.25,
+        "start": 313.6,
+        "end": 317.725,
         "speaker": "narrator",
         "text": "Chung Myung put his hand in his sleeve and pulled something out.",
         "emotion": "neutral"
     },
     {
-        "start": 277.25,
-        "end": 279.3,
+        "start": 317.725,
+        "end": 319.77500000000003,
         "speaker": "chung myung",
-        "text": "“… well, how did you bring that money?!”",
+        "text": "“… well, how did you bring that money?”",
         "emotion": "shocked"
     },
     {
-        "start": 279.3,
-        "end": 283.55,
+        "start": 319.77500000000003,
+        "end": 324.02500000000003,
         "speaker": "chung myung",
         "text": "“Money is meant to be invested. Look, bringing it has its uses.”",
         "emotion": "neutral"
     },
     {
-        "start": 283.55,
-        "end": 295.225,
+        "start": 324.02500000000003,
+        "end": 327.925,
         "speaker": "narrator",
-        "text": "It gave him the momentum to sweep away the gambling board. Baek Cheon shook his head looking at Chung Myung’s bright smile. But instead of scolding him for it, he looked at Chung Myung with warm eyes.",
+        "text": "It gave him the momentum to sweep away the gambling board.",
         "emotion": "neutral"
     },
     {
-        "start": 295.225,
-        "end": 298.55,
-        "speaker": "baek cheon",
-        "text": "“What is with those eyes?! Suddenly I hate him… but Sasuk.”",
+        "start": 327.925,
+        "end": 331.75,
+        "speaker": "narrator",
+        "text": "Baek Cheon shook his head looking at Chung Myung’s bright smile.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 331.75,
+        "end": 336.6,
+        "speaker": "narrator",
+        "text": "But instead of scolding him for it, he looked at Chung Myung with warm eyes.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 336.6,
+        "end": 339.82500000000005,
+        "speaker": "chung myung",
+        "text": "“What is with those eyes? Suddenly I hate him… but Sasuk.”",
         "emotion": "shocked"
     },
     {
-        "start": 298.55,
-        "end": 303.625,
-        "speaker": "baek cheon",
+        "start": 339.82500000000005,
+        "end": 344.80000000000007,
+        "speaker": "chung myung",
         "text": "“I am leaving everything to sasuk in the first round. You know what will happen if you lose.”",
         "emotion": "shocked"
     },
     {
-        "start": 303.625,
-        "end": 312.525,
-        "speaker": "baek cheon",
+        "start": 344.80000000000007,
+        "end": 353.37500000000006,
+        "speaker": "chung myung",
         "text": "“I need to make some money, so make sure to move according to how I bet. If you don’t want to use a pickaxe in the coal mine, you’d better win even if it means death.”",
         "emotion": "shocked"
     },
     {
-        "start": 312.525,
-        "end": 315.59999999999997,
+        "start": 353.37500000000006,
+        "end": 356.45000000000005,
         "speaker": "narrator",
         "text": "Such warm words from sajil to sasuk.",
         "emotion": "neutral"
     },
     {
-        "start": 315.59999999999997,
-        "end": 317.575,
-        "speaker": "baek cheon",
+        "start": 356.45000000000005,
+        "end": 358.42500000000007,
+        "speaker": "chung myung",
         "text": "“Can I ask you one thing?”",
         "emotion": "neutral"
     },
     {
-        "start": 317.575,
-        "end": 320.175,
-        "speaker": "baek cheon",
+        "start": 358.42500000000007,
+        "end": 361.05000000000007,
+        "speaker": "chung myung",
         "text": "“When did I say no? Feel free to ask?”",
         "emotion": "neutral"
     },
     {
-        "start": 320.175,
-        "end": 321.875,
-        "speaker": "baek cheon",
+        "start": 361.05000000000007,
+        "end": 362.82500000000005,
+        "speaker": "chung myung",
         "text": "“Who do you think will win?”",
         "emotion": "neutral"
     },
     {
-        "start": 321.875,
-        "end": 326.825,
+        "start": 362.82500000000005,
+        "end": 366.07500000000005,
         "speaker": "narrator",
-        "text": "Chung Myung looked at him with a pathetic gaze... Then, Baek Cheon smiled and said,",
+        "text": "Chung Myung looked at him with a pathetic gaze.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 366.07500000000005,
+        "end": 368.42500000000007,
+        "speaker": "narrator",
+        "text": "Then, Baek Cheon smiled and said,",
         "emotion": "happy"
     },
     {
-        "start": 326.825,
-        "end": 329.775,
+        "start": 368.42500000000007,
+        "end": 371.37500000000006,
         "speaker": "chung myung",
         "text": "“Who is most likely to be a winner except you?”",
         "emotion": "neutral"
     },
     {
-        "start": 329.775,
-        "end": 334.125,
+        "start": 371.37500000000006,
+        "end": 373.77500000000003,
         "speaker": "narrator",
-        "text": "Chung Myung thoUght about it. Chung Myung lightly touched his chin,",
+        "text": "Chung Myung thoUght about it.",
         "emotion": "neutral"
     },
     {
-        "start": 334.125,
-        "end": 340.1,
+        "start": 373.77500000000003,
+        "end": 376.425,
+        "speaker": "narrator",
+        "text": "Chung Myung lightly touched his chin,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 376.425,
+        "end": 382.40000000000003,
         "speaker": "chung myung",
         "text": "“Of course, I know who is the strongest. But a spar isn’t necessarily won by the strongest.”",
         "emotion": "neutral"
     },
     {
-        "start": 340.1,
-        "end": 344.77500000000003,
+        "start": 382.40000000000003,
+        "end": 387.07500000000005,
         "speaker": "narrator",
         "text": "Just as Baek Cheon was about to ask him to explain, Chung Myung said,",
         "emotion": "neutral"
     },
     {
-        "start": 344.77500000000003,
-        "end": 349.1,
+        "start": 387.07500000000005,
+        "end": 391.40000000000003,
         "speaker": "chung myung",
         "text": "“But I still see those who have a chance. First, the one from Shaolin.”",
         "emotion": "neutral"
     },
     {
-        "start": 349.1,
-        "end": 360.32500000000005,
+        "start": 391.40000000000003,
+        "end": 394.40000000000003,
         "speaker": "narrator",
-        "text": "Baek Cheon nodded his head, That one punch. That alone seemed enoUgh to put his name on the winning list. No one who watched that spar would disagree. Chung Myung thoUght for a moment and said,",
+        "text": "Baek Cheon nodded his head, That one punch.",
         "emotion": "neutral"
     },
     {
-        "start": 360.32500000000005,
-        "end": 362.70000000000005,
+        "start": 394.40000000000003,
+        "end": 398.27500000000003,
+        "speaker": "narrator",
+        "text": "That alone seemed enoUgh to put his name on the winning list.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 398.27500000000003,
+        "end": 401.3,
+        "speaker": "narrator",
+        "text": "No one who watched that spar would disagree.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 401.3,
+        "end": 404.15000000000003,
+        "speaker": "narrator",
+        "text": "Chung Myung thoUght for a moment and said,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 404.15000000000003,
+        "end": 406.52500000000003,
         "speaker": "chung myung",
         "text": "“Ah, and the Namgung family too?”",
         "emotion": "neutral"
     },
     {
-        "start": 362.70000000000005,
-        "end": 366.30000000000007,
+        "start": 406.52500000000003,
+        "end": 410.12500000000006,
         "speaker": "narrator",
         "text": "The mention of Namgung’s Do Wei made Baek Cheon frown.",
         "emotion": "neutral"
     },
     {
-        "start": 366.30000000000007,
-        "end": 376.80000000000007,
+        "start": 410.12500000000006,
+        "end": 420.62500000000006,
         "speaker": "baek cheon",
         "text": "“There is one from Wudang and another from the Hebei Peng family. And… um, should Jin Geum-Ryong be put on that list too? Some will have a hard time dealing with him.”",
         "emotion": "neutral"
     },
     {
-        "start": 376.80000000000007,
-        "end": 378.92500000000007,
+        "start": 420.62500000000006,
+        "end": 422.75000000000006,
         "speaker": "baek cheon",
         "text": "“… Namgung, Wudang, and Peng.”",
         "emotion": "neutral"
     },
     {
-        "start": 378.92500000000007,
-        "end": 381.8500000000001,
+        "start": 422.75000000000006,
+        "end": 425.67500000000007,
         "speaker": "narrator",
         "text": "All of them had made names for themselves.",
         "emotion": "neutral"
     },
     {
-        "start": 381.8500000000001,
-        "end": 383.67500000000007,
+        "start": 425.67500000000007,
+        "end": 427.50000000000006,
         "speaker": "baek cheon",
         "text": "“Aside from those three?”",
         "emotion": "neutral"
     },
     {
-        "start": 383.67500000000007,
-        "end": 386.55000000000007,
+        "start": 427.50000000000006,
+        "end": 430.37500000000006,
         "speaker": "baek cheon",
         "text": "“Is this another ‘except for them’ question?”",
         "emotion": "neutral"
     },
     {
-        "start": 386.55000000000007,
-        "end": 390.4750000000001,
+        "start": 430.37500000000006,
+        "end": 434.30000000000007,
         "speaker": "baek cheon",
         "text": "“Without me, it would be sasuk who reigns, isn’t that natural?”",
         "emotion": "neutral"
     },
     {
-        "start": 390.4750000000001,
-        "end": 392.2250000000001,
+        "start": 434.30000000000007,
+        "end": 436.05000000000007,
         "speaker": "baek cheon",
-        "text": "“What?! Not confident?!”",
+        "text": "“What? Not confident?”",
         "emotion": "shocked"
     },
     {
-        "start": 392.2250000000001,
-        "end": 395.0250000000001,
+        "start": 436.05000000000007,
+        "end": 438.8500000000001,
         "speaker": "narrator",
         "text": "Baek Cheon bit his lips which were twitching,",
         "emotion": "neutral"
     },
     {
-        "start": 395.0250000000001,
-        "end": 396.6500000000001,
+        "start": 438.8500000000001,
+        "end": 440.4750000000001,
         "speaker": "baek cheon",
-        "text": "“Mount Hua’s Baek Cheon!!”!",
+        "text": "“Mount Hua’s Baek Cheon!”",
         "emotion": "angry"
     },
     {
-        "start": 396.6500000000001,
-        "end": 400.42500000000007,
+        "start": 440.4750000000001,
+        "end": 444.25000000000006,
         "speaker": "narrator",
         "text": "Baek Cheon got up from his seat and looked back at Chung Myung,",
         "emotion": "neutral"
     },
     {
-        "start": 400.42500000000007,
-        "end": 402.7250000000001,
+        "start": 444.25000000000006,
+        "end": 446.55000000000007,
         "speaker": "chung myung",
         "text": "“Wait, I will prove it and come back.”",
         "emotion": "neutral"
     },
     {
-        "start": 402.7250000000001,
-        "end": 411.4000000000001,
+        "start": 446.55000000000007,
+        "end": 450.00000000000006,
         "speaker": "narrator",
-        "text": "And he walked to the stage in the most beautiful form. There was no better picture of Baek Cheon wearing his black robe and walking with broad shoulders.",
+        "text": "And he walked to the stage in the most beautiful form.",
         "emotion": "neutral"
     },
     {
-        "start": 411.4000000000001,
-        "end": 445.2000000000001,
+        "start": 450.00000000000006,
+        "end": 455.80000000000007,
         "speaker": "narrator",
-        "text": "Seeing that beautiful figure, Chung Myung smiled, ‘Such a simple mind...’ Of course, Baek Cheon was one of the hundred contenders... And if he looked at the probabilities, there were three likely outcomes... But winning would be difficult... Because there was one monster... Chung Myung’s eyes fell on where Shaolin’s disciples were sitting... He was a guy who could not be defeated... Current Baek Cheon would have trouble dealing with him... Of course, it wasn’t like there was no way to win... But as he had mentioned previously, when talking about skill, it wasn’t a dragged-out conversation... Maybe in a few years, Baek Cheon could grow exponentially in comparison to now... Chung Myung scratched his head,",
+        "text": "There was no better picture of Baek Cheon wearing his black robe and walking with broad shoulders.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 455.80000000000007,
+        "end": 463.3500000000001,
+        "speaker": "narrator",
+        "text": "Seeing that beautiful figure, Chung Myung smiled, ‘Such a simple mind.’ Of course, Baek Cheon was one of the hundred contenders.",
         "emotion": "happy"
     },
     {
-        "start": 445.2000000000001,
-        "end": 448.8000000000001,
+        "start": 463.3500000000001,
+        "end": 467.62500000000006,
+        "speaker": "narrator",
+        "text": "And if he looked at the probabilities, there were three likely outcomes.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 467.62500000000006,
+        "end": 469.92500000000007,
+        "speaker": "narrator",
+        "text": "But winning would be difficult.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 469.92500000000007,
+        "end": 472.37500000000006,
+        "speaker": "narrator",
+        "text": "Because there was one monster.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 472.37500000000006,
+        "end": 476.50000000000006,
+        "speaker": "narrator",
+        "text": "Chung Myung’s eyes fell on where Shaolin’s disciples were sitting.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 476.50000000000006,
+        "end": 479.4750000000001,
+        "speaker": "narrator",
+        "text": "He was a guy who could not be defeated.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 479.4750000000001,
+        "end": 482.6000000000001,
+        "speaker": "narrator",
+        "text": "Current Baek Cheon would have trouble dealing with him.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 482.6000000000001,
+        "end": 485.67500000000007,
+        "speaker": "narrator",
+        "text": "Of course, it wasn’t like there was no way to win.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 485.67500000000007,
+        "end": 492.05000000000007,
+        "speaker": "narrator",
+        "text": "But as he had mentioned previously, when talking about skill, it wasn’t a dragged-out conversation.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 492.05000000000007,
+        "end": 497.12500000000006,
+        "speaker": "narrator",
+        "text": "Maybe in a few years, Baek Cheon could grow exponentially in comparison to now.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 497.12500000000006,
+        "end": 499.50000000000006,
+        "speaker": "narrator",
+        "text": "Chung Myung scratched his head,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 499.50000000000006,
+        "end": 503.1000000000001,
         "speaker": "chung myung",
         "text": "“I didn’t talk about the other one from the Southern Edge Sect.”",
         "emotion": "neutral"
     },
     {
-        "start": 448.8000000000001,
-        "end": 464.52500000000015,
+        "start": 503.1000000000001,
+        "end": 505.1000000000001,
         "speaker": "narrator",
-        "text": "Well, it would be fine... Baek Cheon, who went to the stage, looked at his opponent and smiled, ‘Clearly, his name was Jong Seohan...’ A second-class disciple... He was someone who was relegated to the sidelines and left in the shadow of Jin Geum-Ryong... Jong Seohan looked at Baek Cheon and smiled,",
+        "text": "Well, it would be fine.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 505.1000000000001,
+        "end": 512.8750000000001,
+        "speaker": "narrator",
+        "text": "Baek Cheon, who went to the stage, looked at his opponent and smiled, ‘Clearly, his name was Jong Seohan.’ A second-class disciple.",
         "emotion": "happy"
     },
     {
-        "start": 464.52500000000015,
-        "end": 467.77500000000015,
+        "start": 512.8750000000001,
+        "end": 518.7250000000001,
+        "speaker": "narrator",
+        "text": "He was someone who was relegated to the sidelines and left in the shadow of Jin Geum-Ryong.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 518.7250000000001,
+        "end": 521.5000000000001,
+        "speaker": "narrator",
+        "text": "Jong Seohan looked at Baek Cheon and smiled,",
+        "emotion": "happy"
+    },
+    {
+        "start": 521.5000000000001,
+        "end": 524.7500000000001,
         "speaker": "baek cheon",
         "text": "“Thus, I ended up meeting the Handsome White Dragon.”",
         "emotion": "neutral"
     },
     {
-        "start": 467.77500000000015,
-        "end": 470.0500000000001,
+        "start": 524.7500000000001,
+        "end": 527.0250000000001,
         "speaker": "baek cheon",
         "text": "“Have you come with a prepared mind?”",
         "emotion": "neutral"
     },
     {
-        "start": 470.0500000000001,
-        "end": 478.3000000000001,
+        "start": 527.0250000000001,
+        "end": 532.075,
         "speaker": "narrator",
-        "text": "Baek Cheon looked at him and looked at where the disciples of Southern Edge were gathered. Jin Geum-Ryong was staring at him with cold eyes,",
+        "text": "Baek Cheon looked at him and looked at where the disciples of Southern Edge were gathered.",
         "emotion": "neutral"
     },
     {
-        "start": 478.3000000000001,
-        "end": 479.85000000000014,
+        "start": 532.075,
+        "end": 535.5500000000001,
+        "speaker": "narrator",
+        "text": "Jin Geum-Ryong was staring at him with cold eyes,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 535.5500000000001,
+        "end": 537.1,
         "speaker": "baek cheon",
         "text": "“Where are you looking?”",
         "emotion": "neutral"
     },
     {
-        "start": 479.85000000000014,
-        "end": 494.3750000000001,
+        "start": 537.1,
+        "end": 551.625,
         "speaker": "baek cheon",
         "text": "“You’ve got a vain reputation and it seems like you are fine. You don’t deserve to be called sahyung thoUgh. You haven’t forgotten, right? Your disciples of Mount Hua have been below us. You are all reaping your luck next to Mount Hua’s Divine Dragon.”",
         "emotion": "neutral"
     },
     {
-        "start": 494.3750000000001,
-        "end": 496.85000000000014,
+        "start": 551.625,
+        "end": 554.1,
         "speaker": "narrator",
         "text": "But Baek Cheon was a calm person,",
         "emotion": "neutral"
     },
     {
-        "start": 496.85000000000014,
-        "end": 498.57500000000016,
+        "start": 554.1,
+        "end": 555.825,
         "speaker": "baek cheon",
         "text": "“Ah, right. I agree.”",
         "emotion": "neutral"
     },
     {
-        "start": 498.57500000000016,
-        "end": 507.72500000000014,
+        "start": 555.825,
+        "end": 558.35,
         "speaker": "narrator",
-        "text": "Jong Seohan looked at Baek Cheon. ‘Are you saying that you have no pride?!’ How could you be calm after hearing such words?! But Baek Cheon continued to speak in a calm manner,",
+        "text": "Jong Seohan looked at Baek Cheon.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 558.35,
+        "end": 563.15,
+        "speaker": "narrator",
+        "text": "‘Are you saying that you have no pride?’ How could you be calm after hearing such words?",
         "emotion": "shocked"
     },
     {
-        "start": 507.72500000000014,
-        "end": 515.8500000000001,
+        "start": 563.15,
+        "end": 566.4499999999999,
+        "speaker": "narrator",
+        "text": "But Baek Cheon continued to speak in a calm manner,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 566.4499999999999,
+        "end": 574.5749999999999,
         "speaker": "baek cheon",
         "text": "“The second-class disciples of Mount Hua never defeated the Southern Edge Sect, and my reputation is clearly overstated.”",
         "emotion": "neutral"
     },
     {
-        "start": 515.8500000000001,
-        "end": 517.6000000000001,
+        "start": 574.5749999999999,
+        "end": 576.3249999999999,
         "speaker": "baek cheon",
         "text": "“But why does it matter?”",
         "emotion": "neutral"
     },
     {
-        "start": 517.6000000000001,
-        "end": 519.7750000000001,
+        "start": 576.3249999999999,
+        "end": 578.4999999999999,
         "speaker": "narrator",
         "text": "Baek Cheon drew his sword,",
         "emotion": "neutral"
     },
     {
-        "start": 519.7750000000001,
-        "end": 532.3000000000001,
+        "start": 578.4999999999999,
+        "end": 591.0249999999999,
         "speaker": "baek cheon",
         "text": "“If I haven’t won before, I just need to win from now on, and if I have a reputation, I just need to make sure that it doesn’t get broUght down. I am sorry, but the disciples of Mount Hua aren’t the same as before.”",
         "emotion": "neutral"
     },
     {
-        "start": 532.3000000000001,
-        "end": 546.825,
+        "start": 591.0249999999999,
+        "end": 594.1499999999999,
         "speaker": "narrator",
-        "text": "Seeing Jong Seohan angry, Baek Cheon smiled... In the past, he trained all this time to defeat his brother, but looking back now, he would have never been able to defeat any disciple of Southern Edge... There was a huge difference between Mount Hua and Southern Edge...",
+        "text": "Seeing Jong Seohan angry, Baek Cheon smiled.",
         "emotion": "happy"
     },
     {
-        "start": 546.825,
-        "end": 548.625,
+        "start": 594.1499999999999,
+        "end": 603.1249999999999,
+        "speaker": "narrator",
+        "text": "In the past, he trained all this time to defeat his brother, but looking back now, he would have never been able to defeat any disciple of Southern Edge.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 603.1249999999999,
+        "end": 607.1749999999998,
+        "speaker": "narrator",
+        "text": "There was a huge difference between Mount Hua and Southern Edge.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 607.1749999999998,
+        "end": 608.9749999999998,
         "speaker": "baek cheon",
         "text": "“Ah. One correction.”",
         "emotion": "neutral"
     },
     {
-        "start": 548.625,
-        "end": 552.6,
+        "start": 608.9749999999998,
+        "end": 612.9499999999998,
         "speaker": "narrator",
         "text": "At Baek Cheon’s words, Jong Seohan’s eyes looked doubtful,",
         "emotion": "neutral"
     },
     {
-        "start": 552.6,
-        "end": 562.475,
+        "start": 612.9499999999998,
+        "end": 622.8249999999998,
         "speaker": "baek cheon",
         "text": "“Mount Hua doesn’t cling to the past, but I guess I cling to the past as I am a little timid. The memories of me being smashed in the past are still clear to me.”",
         "emotion": "neutral"
     },
     {
-        "start": 562.475,
-        "end": 567.35,
+        "start": 622.8249999999998,
+        "end": 627.6999999999998,
         "speaker": "narrator",
         "text": "Baek Cheon tapped his temple with his finger, and Jong Seohan frowned and said,",
         "emotion": "neutral"
     },
     {
-        "start": 567.35,
-        "end": 577.8000000000001,
+        "start": 627.6999999999998,
+        "end": 638.1499999999999,
         "speaker": "baek cheon",
         "text": "“Don’t worry. I will make new memories for you. The experience of being smashed again in front of so many people will not be easy, so it will remain with you for the rest of your life.”",
         "emotion": "neutral"
     },
     {
-        "start": 577.8000000000001,
-        "end": 579.975,
+        "start": 638.1499999999999,
+        "end": 640.3249999999998,
         "speaker": "narrator",
         "text": "Baek Cheon smiled brightly,",
         "emotion": "happy"
     },
     {
-        "start": 579.975,
-        "end": 589.4,
+        "start": 640.3249999999998,
+        "end": 649.7499999999998,
         "speaker": "baek cheon",
         "text": "“As you said, it was Chung Myung who defeated Southern Edge and not us. But now we have a chance, and if I beat you, Jin Geum-Ryong will be next.”",
         "emotion": "neutral"
     },
     {
-        "start": 589.4,
-        "end": 592.525,
+        "start": 649.7499999999998,
+        "end": 652.8749999999998,
         "speaker": "narrator",
         "text": "And looking at Jong Seohan’s bright blue eyes,",
         "emotion": "neutral"
     },
     {
-        "start": 592.525,
-        "end": 603.5749999999999,
+        "start": 652.8749999999998,
+        "end": 663.9249999999997,
         "speaker": "baek cheon",
         "text": "“I will completely cut the ties Southern Edge has with Mount Hua with my own hands. Watch it. I will prove that the Southern Edge Sect is no longer an opponent for Mount Hua.”",
         "emotion": "neutral"
     },
     {
-        "start": 603.5749999999999,
-        "end": 622.3749999999999,
+        "start": 663.9249999999997,
+        "end": 670.1999999999997,
         "speaker": "narrator",
-        "text": "Baek Cheon took the stance of the 24 Movement Plum Blossom Sword technique and raised his sword. The unique black and pure white qi. A sword that shone in the sunlight. Everything looked outstanding. He had the appearance of a hero from a story. All the people were mesmerized by it. Jong Seohan couldn’t look at him like that,",
+        "text": "Baek Cheon took the stance of the 24 Movement Plum Blossom Sword technique and raised his sword.",
         "emotion": "neutral"
     },
     {
-        "start": 622.3749999999999,
-        "end": 625.1749999999998,
+        "start": 670.1999999999997,
+        "end": 672.7999999999997,
+        "speaker": "narrator",
+        "text": "The unique black and pure white qi.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 672.7999999999997,
+        "end": 675.2499999999998,
+        "speaker": "narrator",
+        "text": "A sword that shone in the sunlight.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 675.2499999999998,
+        "end": 677.5749999999998,
+        "speaker": "narrator",
+        "text": "Everything looked outstanding.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 677.5749999999998,
+        "end": 680.6499999999999,
+        "speaker": "narrator",
+        "text": "He had the appearance of a hero from a story.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 680.6499999999999,
+        "end": 683.3249999999998,
+        "speaker": "narrator",
+        "text": "All the people were mesmerized by it.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 683.3249999999998,
+        "end": 686.1249999999998,
+        "speaker": "narrator",
+        "text": "Jong Seohan couldn’t look at him like that,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 686.1249999999998,
+        "end": 688.9249999999997,
         "speaker": "baek cheon",
-        "text": "“Let’s see if that sword is as sharp as your mouth!!”!",
+        "text": "“Let’s see if that sword is as sharp as your mouth!”",
         "emotion": "angry"
     },
     {
-        "start": 625.1749999999998,
-        "end": 627.0499999999998,
-        "speaker": "chung myung",
+        "start": 688.9249999999997,
+        "end": 690.7749999999997,
+        "speaker": "baek cheon",
         "text": "“Don’t worry, it is sharp.”",
         "emotion": "neutral"
     },
     {
-        "start": 627.0499999999998,
-        "end": 646.7249999999998,
+        "start": 690.7749999999997,
+        "end": 695.5249999999997,
         "speaker": "narrator",
-        "text": "Jong Seohan, who was pushed back with words, grunted and drew his sword. Baek Cheon turned his head and looked at his brother. Jin Geum-Ryong had a cold look as usual. ‘Take a good look, hyung.’ The Southern Edge would fall from the hands of Baek Cheon and not Chung Myung. This would be the last piece of consideration he would show to his family. Looking at the stage, Yoon Jong clenched his fists.",
+        "text": "Jong Seohan, who was pushed back with words, grunted and drew his sword.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 695.5249999999997,
+        "end": 698.9249999999997,
+        "speaker": "narrator",
+        "text": "Baek Cheon turned his head and looked at his brother.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 698.9249999999997,
+        "end": 702.1999999999997,
+        "speaker": "narrator",
+        "text": "Jin Geum-Ryong had a cold look as usual.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 702.1999999999997,
+        "end": 708.1499999999997,
+        "speaker": "narrator",
+        "text": "‘Take a good look, hyung.’ The Southern Edge would fall from the hands of Baek Cheon and not Chung Myung.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 708.1499999999997,
+        "end": 712.2749999999997,
+        "speaker": "narrator",
+        "text": "This would be the last piece of consideration he would show to his family.",
         "emotion": "shocked"
     },
     {
-        "start": 646.7249999999998,
-        "end": 649.0999999999998,
+        "start": 712.2749999999997,
+        "end": 715.5749999999997,
+        "speaker": "narrator",
+        "text": "Looking at the stage, Yoon Jong clenched his fists.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 715.5749999999997,
+        "end": 717.9499999999997,
         "speaker": "chung myung",
         "text": "“Chung Myung, sasuk will win right?”",
         "emotion": "neutral"
     },
     {
-        "start": 649.0999999999998,
-        "end": 656.8499999999998,
+        "start": 717.9499999999997,
+        "end": 725.6999999999997,
         "speaker": "narrator",
         "text": "When Yoon Jong turned, Chung Myung’s chair was empty, and only Jo Gul stood there next to him with a shaky expression,",
         "emotion": "neutral"
     },
     {
-        "start": 656.8499999999998,
-        "end": 658.8999999999997,
+        "start": 725.6999999999997,
+        "end": 727.7499999999997,
         "speaker": "chung myung",
         "text": "“… he went to collect money.”",
         "emotion": "neutral"
     },
     {
-        "start": 658.8999999999997,
-        "end": 665.0249999999997,
+        "start": 727.7499999999997,
+        "end": 730.2499999999997,
         "speaker": "narrator",
-        "text": "This sect was walking backward. Very desirable, you damned man. Return of the Mount Hua Sect",
+        "text": "This sect was walking backward.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 730.2499999999997,
+        "end": 732.8749999999997,
+        "speaker": "narrator",
+        "text": "Very desirable, you damned man.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 732.8749999999997,
+        "end": 735.2249999999997,
+        "speaker": "narrator",
+        "text": "Return of the Mount Hua Sect",
         "emotion": "neutral"
     }
 ]

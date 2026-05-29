@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import time
 import numpy as np
@@ -45,6 +46,22 @@ RENDER_DIR.mkdir(
     exist_ok=True
 )
 
+def split_narration(text):
+
+    sentences = re.split(
+        r'(?<=[.!?])\s+',
+        text
+    )
+
+    return [
+
+        s.strip()
+
+        for s in sentences
+
+        if s.strip()
+
+    ]
 # ============================================
 # RENDER CHAPTER
 # ============================================
@@ -104,107 +121,141 @@ def render_chapter(chapter_num):
 
             try:
 
-                text = normalize_text(
+                # ================================
+                # NARRATION
+                # ================================
 
-                    segment["text"]
+                if segment["type"] == "narration":
 
-                )
-
-                emotion = detect_emotion(
-                    text
-                )
-
-                text = apply_emotion(
-                    text,
-                    emotion
-                )
-
-                speed = get_emotion_speed(
-                    emotion
-                )
-
-                generator = pipeline(
-
-                    text,
-
-                    voice=segment["voice"],
-
-                    speed=speed
-
-                )
-
-                audio_parts = []
-
-                for gs, ps, audio in generator:
-
-                    audio_parts.append(
-                        audio
+                    render_texts = split_narration(
+                        segment["text"]
                     )
 
-                if not audio_parts:
-                    continue
+                else:
 
-                final_np = np.concatenate(
-                    audio_parts
-                )
-
-                temp_path = (
-                    chapter_folder
-                    / f"temp_{time.time_ns()}.wav"
-                )
-
-                sf.write(
-
-                    temp_path,
-
-                    final_np,
-
-                    24000
-
-                )
-
-                segment_audio = AudioSegment.from_wav(
-                    temp_path
-                )
-
-                duration = (
-                    len(segment_audio)
-                    / 1000
-                )
+                    render_texts = [
+                        segment["text"]
+                    ]
 
                 # ================================
-                # TIMESTAMPS
+                # RENDER EACH TEXT
                 # ================================
 
-                timestamps.append({
+                for raw_text in render_texts:
 
-                    "start": current_time,
+                    text = normalize_text(
+                        raw_text
+                    )
 
-                    "end": (
-                        current_time
-                        + duration
-                    ),
+                    if not text:
+                        continue
 
-                    "speaker": segment["speaker"],
+                    emotion = detect_emotion(
+                        text
+                    )
 
-                    "text": text,
+                    processed_text = apply_emotion(
+                        text,
+                        emotion
+                    )
 
-                    "emotion": emotion
+                    speed = get_emotion_speed(
+                        emotion
+                    )
 
-                })
+                    print(
+                        f"Rendering: "
+                        f"{text[:80]}"
+                    )
 
-                current_time += duration
+                    generator = pipeline(
 
-                final_audio += segment_audio
+                        processed_text,
 
-                os.remove(temp_path)
+                        voice=segment["voice"],
+
+                        speed=speed
+
+                    )
+
+                    audio_parts = []
+
+                    for gs, ps, audio in generator:
+
+                        audio_parts.append(
+                            audio
+                        )
+
+                    if not audio_parts:
+                        continue
+
+                    final_np = np.concatenate(
+                        audio_parts
+                    )
+
+                    temp_path = (
+                        chapter_folder
+                        / f"temp_{time.time_ns()}.wav"
+                    )
+
+                    sf.write(
+
+                        temp_path,
+
+                        final_np,
+
+                        24000
+
+                    )
+
+                    segment_audio = (
+                        AudioSegment.from_wav(
+                            temp_path
+                        )
+                    )
+
+                    duration = (
+                        len(segment_audio)
+                        / 1000
+                    )
+
+                    timestamps.append({
+
+                        "start": current_time,
+
+                        "end": (
+                            current_time
+                            + duration
+                        ),
+
+                        "speaker":
+                            segment["speaker"],
+
+                        "text": text,
+
+                        "emotion":
+                            emotion
+
+                    })
+
+                    current_time += duration
+
+                    final_audio += segment_audio
+
+                    os.remove(
+                        temp_path
+                    )
+
+                    print(
+                        f"Finished: "
+                        f"{text[:80]}"
+                    )
 
             except Exception as e:
 
                 print(
                     f"\nRender Error: {e}"
                 )
-
     # ========================================
     # EXPORT FINAL AUDIO
     # ========================================
