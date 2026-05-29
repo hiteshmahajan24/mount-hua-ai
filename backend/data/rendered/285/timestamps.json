@@ -79,7 +79,7 @@
     {
         "start": 61.0,
         "end": 64.65,
-        "speaker": "hyun young",
+        "speaker": "baek sang",
         "text": "“I cannot beat the other disciples with my current skills.”",
         "emotion": "neutral"
     },
@@ -170,7 +170,7 @@
     {
         "start": 117.72500000000001,
         "end": 119.62500000000001,
-        "speaker": "baek sang",
+        "speaker": "hyun young",
         "text": "“Right!! Right!! You understand!!”!",
         "emotion": "angry"
     },
@@ -191,7 +191,7 @@
     {
         "start": 150.925,
         "end": 153.95000000000002,
-        "speaker": "chung myung",
+        "speaker": "hyun young",
         "text": "“I wonder. Right, did you think of this yourself?”",
         "emotion": "neutral"
     },

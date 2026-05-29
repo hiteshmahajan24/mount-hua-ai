@@ -1,6 +1,7 @@
 import {
   saveContinueWatching
 } from "../utils/continueWatching";
+import { useRef } from "react";
 
 import chapter285 from "../assets/chapters/chapter_285.jpg";
 import chapter286 from "../assets/chapters/chapter_286.jpg";
@@ -19,28 +20,37 @@ from "../components/AudioProvider";
 
 export default function Player() {
 
+  const narrationRef = useRef(null);
+
+  const [sidebarOpen, setSidebarOpen] =
+  useState(true);
+
   const [chapter, setChapter] =
     useState(285);
 
-  const [status, setStatus] =
-    useState({
-
-      playing: false,
-
-      paused: false,
-
-      current_time: 0,
-
-      duration: 0,
-
-      volume: 100,
-
-      speed: 1,
-
-    });
+  const [status, setStatus] = useState({
+  playing: false,
+  paused: true,
+  current_time: 0,
+  duration: 0,
+  volume: 300,
+  speed: 1
+});
 
   const [search, setSearch] =
     useState("");
+
+  const [subtitlesEnabled, setSubtitlesEnabled] =
+  useState(false);
+
+  const [timestamps, setTimestamps] =
+  useState([]);
+
+const [currentSubtitle, setCurrentSubtitle] =
+  useState(null);
+
+  const [currentSubtitleIndex, setCurrentSubtitleIndex] =
+  useState(-1);
 
     
   const {
@@ -64,166 +74,213 @@ const chapterImages = {
 
 };
 
+useEffect(() => {
 
-  // ========================================
-  // FETCH STATUS
-  // ========================================
+  const audio = narrationRef.current;
 
-  async function fetchStatus() {
+  if (!audio) return;
 
-    try {
+  const interval = setInterval(() => {
 
-      const res = await fetch(
-        `${API}/status`
+    setStatus(prev => ({
+
+      ...prev,
+
+      current_time:
+        audio.currentTime || 0,
+
+      duration:
+        audio.duration || 0,
+
+      paused:
+        audio.paused,
+
+      playing:
+        !audio.paused
+
+    }));
+
+  }, 300);
+
+  return () =>
+    clearInterval(interval);
+
+}, []);
+
+
+
+///SUBTITLE TRACKER
+useEffect(() => {
+
+  const audio =
+    narrationRef.current;
+
+  if (!audio)
+    return;
+
+  const interval =
+    setInterval(() => {
+
+      const currentTime =
+        audio.currentTime;
+
+      const index =
+        timestamps.findIndex(
+
+          segment =>
+
+            currentTime >= segment.start
+
+            &&
+
+            currentTime <= segment.end
+
+        );
+
+      setCurrentSubtitleIndex(
+        index
       );
 
-      const data = await res.json();
+      if (index >= 0) {
 
-      setStatus(data);
+        setCurrentSubtitle(
+          timestamps[index]
+        );
 
-    } catch (err) {
+      } else {
 
-      console.log(err);
+        setCurrentSubtitle(
+          null
+        );
 
-    }
+      }
 
-  }
+    }, 100);
+
+  return () =>
+    clearInterval(interval);
+
+}, [timestamps]);
 
   // ========================================
   // PLAY / PAUSE TOGGLE
   // ========================================
+async function togglePlayback() {
 
-  async function togglePlayback() {
+  const audio = narrationRef.current;
 
-    // ====================================
-    // PAUSE
-    // ====================================
+  if (!audio)
+    return;
 
-    if (
+  const currentChapterUrl =
+    `${API}/audio/${chapter}`;
 
-      status.playing
+  // Same chapter already loaded
 
-      &&
+  if (
+    audio.src.includes(
+      `/audio/${chapter}`
+    )
+  ) {
 
-      !status.paused
+    if (audio.paused)
+      await audio.play();
+    else
+      audio.pause();
 
-    ) {
-
-      await fetch(
-
-        `${API}/pause`,
-
-        {
-          method: "POST"
-        }
-
-      );
-
-    }
-
-    // ====================================
-    // PLAY / RESUME
-    // ====================================
-
-    else {
-
-      await fetch(
-
-        `${API}/play/${chapter}`,
-
-        {
-          method: "POST"
-        }
-
-      );
-
-    }
-
-    // ====================================
-    // REFRESH
-    // ====================================
-
-    setTimeout(
-      fetchStatus,
-      200
-    );
+    return;
 
   }
 
+  // New chapter selected
+
+  const res = await fetch(
+    `${API}/prepare/${chapter}`,
+    {
+      method: "POST"
+    }
+  );
+
+  const data =
+    await res.json();
+
+        const subtitleRes =
+      await fetch(
+        API + data.timestamps_url
+      );
+
+    const subtitleData =
+      await subtitleRes.json();
+
+    setTimestamps(
+      subtitleData
+    );
+
+  audio.src =
+    API + data.audio_url;
+
+  await audio.play();
+
+}
   // ========================================
   // SEEK
   // ========================================
 
-  async function seekAudio(value) {
+function seekAudio(value) {
 
-    await fetch(
+  if (
 
-      `${API}/seek/${value}`,
+    narrationRef.current
 
-      {
-        method: "POST"
-      }
+  ) {
 
-    );
+    narrationRef.current.currentTime =
+      value;
 
   }
+
+}
 
   // ========================================
   // VOLUME
   // ========================================
 
-  async function changeVolume(value) {
+function changeVolume(value) {
 
-    await fetch(
+  if (narrationRef.current) {
 
-      `${API}/volume/${value}`,
-
-      {
-        method: "POST"
-      }
-
-    );
+    narrationRef.current.volume =
+      value / 300;
 
   }
+
+  setStatus(prev => ({
+
+    ...prev,
+
+    volume: Number(value)
+
+  }));
+
+}
 
   // ========================================
   // SPEED
   // ========================================
+function changeSpeed(value) {
 
-  async function changeSpeed(value) {
+  if (
 
-    await fetch(
+    narrationRef.current
 
-      `${API}/speed/${value}`,
+  ) {
 
-      {
-        method: "POST"
-      }
-
-    );
+    narrationRef.current.playbackRate =
+      value;
 
   }
 
-  // ========================================
-  // AUTO REFRESH
-  // ========================================
-
-  useEffect(() => {
-
-    fetchStatus();
-
-    const interval = setInterval(
-
-      fetchStatus,
-
-      500
-
-    );
-
-    return () =>
-      clearInterval(interval);
-
-  }, []);
+}
 
 
   //AUTO SAVE PROGRESS
@@ -327,20 +384,99 @@ useEffect(() => {
 
     </button>
 
+    <button
+
+  onClick={() =>
+
+    setSubtitlesEnabled(
+      prev => !prev
+    )
+
+  }
+
+  className="
+    absolute
+    top-6
+    right-24
+    z-50
+    px-4
+    py-3
+    rounded-xl
+    bg-black/50
+    backdrop-blur-xl
+  "
+
+>
+
+  {
+
+    subtitlesEnabled
+
+    ?
+
+    "📖 ON"
+
+    :
+
+    "📖 OFF"
+
+  }
+
+</button>
+<button
+
+  onClick={() =>
+
+    setSidebarOpen(
+      prev => !prev
+    )
+
+  }
+
+  className="
+    absolute
+    top-6
+    left-6
+    z-50
+
+    w-12
+    h-12
+
+    rounded-xl
+
+    bg-black/50
+
+    backdrop-blur-xl
+  "
+
+>
+
+  ☰
+
+</button>
+
 
       {/* SIDEBAR */}
 
-      <Sidebar
+      {
 
-        chapter={chapter}
+  sidebarOpen && (
 
-        setChapter={setChapter}
+    <Sidebar
 
-        search={search}
+      chapter={chapter}
 
-        setSearch={setSearch}
+      setChapter={setChapter}
 
-      />
+      search={search}
+
+      setSearch={setSearch}
+
+    />
+
+  )
+
+}
 
       {/* PLAYER */}
 
@@ -352,11 +488,21 @@ useEffect(() => {
 
         <BackgroundVideo  />
 
-        <div className="
-          absolute
-          inset-0
-          bg-black/30
-        " />
+        <div
+
+          className={`
+            absolute
+            inset-0
+            transition-all
+            duration-500
+            ${
+              subtitlesEnabled
+                ? "bg-black/55"
+                : "bg-black/30"
+            }
+          `}
+
+        />
 
         <div className="
           relative
@@ -396,21 +542,66 @@ useEffect(() => {
 
           <div className="
             flex-1
+
             flex
             items-center
             justify-center
+
+            min-h-0
+
+            px-8
           ">
 
-            <SubtitleOverlay />
+            <SubtitleOverlay
 
+            enabled={
+              subtitlesEnabled
+            }
+
+            previousSubtitle={
+
+              currentSubtitleIndex > 0
+
+                ?
+
+                timestamps[
+                  currentSubtitleIndex - 1
+                ]
+
+                :
+
+                null
+
+            }
+
+            subtitle={
+              currentSubtitle
+            }
+
+            nextSubtitle={
+
+              currentSubtitleIndex <
+              timestamps.length - 1
+
+                ?
+
+                timestamps[
+                  currentSubtitleIndex + 1
+                ]
+
+                :
+
+                null
+
+            }
+
+          />
           </div>
 
           {/* CONTROLS */}
 
           <Controls
-
             status={status}
-
             togglePlayback={togglePlayback}
 
             seekAudio={seekAudio}
@@ -424,6 +615,9 @@ useEffect(() => {
         </div>
 
       </div>
+      <audio
+  ref={narrationRef}
+/>
 
     </div>
 

@@ -38,6 +38,41 @@ router = APIRouter()
 # STATUS
 # ============================================
 
+from fastapi.responses import FileResponse
+
+@router.get("/audio/{chapter}")
+def get_audio(chapter: int):
+
+    audio_path = (
+        DATA_DIR
+        / "rendered"
+        / str(chapter)
+        / "audio.wav"
+    )
+
+    return FileResponse(
+        audio_path,
+        media_type="audio/wav"
+    )
+
+
+from fastapi.responses import FileResponse
+
+@router.get("/timestamps/{chapter}")
+def get_timestamps(chapter: int):
+
+    timestamp_path = (
+        DATA_DIR
+        / "rendered"
+        / str(chapter)
+        / "timestamps.json"
+    )
+
+    return FileResponse(
+        timestamp_path,
+        media_type="application/json"
+    )
+
 @router.get("/status")
 def get_status():
 
@@ -63,9 +98,32 @@ def get_status():
 
     }
 
+
+@router.post("/prepare/{chapter}")
+def prepare_chapter(chapter: int):
+
+    success = ensure_rendered(chapter)
+
+    if not success:
+
+        return {
+            "error": "Render failed"
+        }
+
+    return {
+
+        "audio_url":
+        f"/audio/{chapter}",
+
+        "timestamps_url":
+        f"/timestamps/{chapter}"
+
+    }
+
 # ============================================
 # PLAY
 # ============================================
+
 
 @router.post("/play/{chapter}")
 def play_chapter(chapter: int):

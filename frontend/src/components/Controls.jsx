@@ -1,14 +1,9 @@
-
 export default function Controls({
 
   status,
-
   togglePlayback,
-
   seekAudio,
-
   changeVolume,
-
   changeSpeed
 
 }) {
@@ -18,13 +13,11 @@ export default function Controls({
     if (!seconds)
       return "0:00";
 
-    const mins = Math.floor(
-      seconds / 60
-    );
+    const mins =
+      Math.floor(seconds / 60);
 
-    const secs = Math.floor(
-      seconds % 60
-    );
+    const secs =
+      Math.floor(seconds % 60);
 
     return (
       `${mins}:` +
@@ -36,20 +29,24 @@ export default function Controls({
   return (
 
     <div className="
-      p-8
+      px-6
+      py-3
+
       flex
       flex-col
-      gap-5
-      bg-black/30
-      backdrop-blur-xl
-    ">
 
-      {/* TIME */}
+      gap-2
+
+      bg-black/20
+      backdrop-blur-md
+    ">
 
       <div className="
         flex
         justify-between
+
         text-zinc-300
+        text-sm
       ">
 
         <span>
@@ -69,8 +66,6 @@ export default function Controls({
         </span>
 
       </div>
-
-      {/* SEEK */}
 
       <input
 
@@ -98,38 +93,39 @@ export default function Controls({
 
       />
 
-      {/* CONTROLS */}
-
       <div className="
         flex
         items-center
         justify-between
       ">
 
-        {/* LEFT */}
-
         <div className="
           flex
           items-center
-          gap-5
+          gap-3
         ">
-
-          {/* PLAY BUTTON */}
 
           <button
 
-            onClick={togglePlayback}
+            onClick={
+              togglePlayback
+            }
 
             className="
-              w-20
-              h-20
+              w-12
+              h-12
+
               rounded-full
+
               bg-white
+
               text-black
-              text-3xl
+
+              text-lg
+
               hover:scale-105
+
               transition-all
-              shadow-2xl
             "
 
           >
@@ -142,19 +138,17 @@ export default function Controls({
 
               !status.paused
 
-              ?
+                ?
 
-              "⏸"
+                "⏸"
 
-              :
+                :
 
-              "▶"
+                "▶"
 
             }
 
           </button>
-
-          {/* SPEED */}
 
           <select
 
@@ -170,8 +164,10 @@ export default function Controls({
 
             className="
               bg-zinc-900
-              px-4
-              py-3
+
+              px-3
+              py-2
+
               rounded-xl
             "
 
@@ -201,16 +197,16 @@ export default function Controls({
 
         </div>
 
-        {/* VOLUME */}
-
         <div className="
           flex
           items-center
-          gap-4
-          w-[300px]
+
+          gap-2
+
+          w-[180px]
         ">
 
-          <span className="text-2xl">
+          <span>
 
             🔊
 
@@ -224,7 +220,9 @@ export default function Controls({
 
             max="300"
 
-            value={status.volume}
+            value={
+              status.volume
+            }
 
             onChange={(e) =>
 
