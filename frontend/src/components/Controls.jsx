@@ -4,9 +4,10 @@ export default function Controls({
   togglePlayback,
   seekAudio,
   changeVolume,
-  changeSpeed
+  changeSpeed,
+  toggleFullscreen
 
-}) {
+}){
 
   function formatTime(seconds) {
 
@@ -197,46 +198,68 @@ export default function Controls({
 
         </div>
 
-        <div className="
-          flex
-          items-center
+  <div className="
+  flex
+  items-center
+  gap-4
+">
 
-          gap-2
+  <span>
 
-          w-[180px]
-        ">
+    🔊
 
-          <span>
+  </span>
 
-            🔊
+  <input
 
-          </span>
+    type="range"
 
-          <input
+    min="0"
 
-            type="range"
+    max="300"
 
-            min="0"
+    value={
+      status.volume
+    }
 
-            max="300"
+    onChange={(e) =>
+      changeVolume(
+        e.target.value
+      )
+    }
 
-            value={
-              status.volume
-            }
+    className="
+      w-[180px]
+    "
 
-            onChange={(e) =>
+  />
 
-              changeVolume(
-                e.target.value
-              )
+  <button
 
-            }
+    onClick={
+      toggleFullscreen
+    }
 
-            className="w-full"
+    className="
+      w-10
+      h-10
 
-          />
+      rounded-lg
 
-        </div>
+      bg-zinc-900
+
+      hover:bg-zinc-800
+
+      transition-all
+    "
+
+  >
+
+    ⛶
+
+  </button>
+
+</div>
 
       </div>
 

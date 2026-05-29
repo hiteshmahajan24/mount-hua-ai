@@ -1,0 +1,1367 @@
+[
+    {
+        "start": 0,
+        "end": 3.15,
+        "speaker": "narrator",
+        "text": "Tap the text to show or hide reading controls.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 3.15,
+        "end": 7.125,
+        "speaker": "chung myung",
+        "text": "“Now, now! You cannot bet when the match starts! Now is your last chance!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 7.125,
+        "end": 10.05,
+        "speaker": "narrator",
+        "text": "Wei Lishan spoke at the top of his voice.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 10.05,
+        "end": 15.350000000000001,
+        "speaker": "narrator",
+        "text": "Otherwise, no one would be able to hear him, because people had already begun screaming.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 15.350000000000001,
+        "end": 20.275000000000002,
+        "speaker": "chung myung",
+        "text": "“No! I want to bet money, so why aren’t you taking it?! I am betting on Jong Seohan!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 20.275000000000002,
+        "end": 22.475,
+        "speaker": "chung myung",
+        "text": "“A hundred coins on Baek Cheon.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 22.475,
+        "end": 24.925,
+        "speaker": "chung myung",
+        "text": "“Get out! Five hundred on Jong Seohan!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 24.925,
+        "end": 29.675,
+        "speaker": "chung myung",
+        "text": "“Put your money on the table! Get out! Look! I want to bet a thousand on Jong Seohan!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 29.675,
+        "end": 31.425,
+        "speaker": "chung myung",
+        "text": "“Fifty! Fifty from me!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 31.425,
+        "end": 34.075,
+        "speaker": "chung myung",
+        "text": "“What, only 50? Get some sweets instead!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 34.075,
+        "end": 39.875,
+        "speaker": "chung myung",
+        "text": "“Shut it, you rich bastards! I have the right to bet! What kind of gambling table only allows rich people?”",
+        "emotion": "angry"
+    },
+    {
+        "start": 39.875,
+        "end": 41.7,
+        "speaker": "chung myung",
+        "text": "“Owner! Where is my token!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 41.7,
+        "end": 46.900000000000006,
+        "speaker": "narrator",
+        "text": "People ran around madly, and some even started to wave the money in their hands.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 46.900000000000006,
+        "end": 51.7,
+        "speaker": "chung myung",
+        "text": "“Soheng, collect their money and give out the tokens! Don’t forget to put the seal on it!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 51.7,
+        "end": 59.150000000000006,
+        "speaker": "chung myung",
+        "text": "“And, we may never know, so record the personal information of the people who made bets and gave us money! They might lose their tokens.”",
+        "emotion": "angry"
+    },
+    {
+        "start": 59.150000000000006,
+        "end": 67.22500000000001,
+        "speaker": "narrator",
+        "text": "Wei Soheng and the disciples of Huayoung Gate took the money and began to work by writing down the bettor’s personal information.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 67.22500000000001,
+        "end": 70.525,
+        "speaker": "narrator",
+        "text": "Everyone was sweating in this crazy situation.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 70.525,
+        "end": 74.05000000000001,
+        "speaker": "chung myung",
+        "text": "“Hurry! Please do it quickly! This is where the betting begins!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 74.05000000000001,
+        "end": 79.00000000000001,
+        "speaker": "chung myung",
+        "text": "“What is this man?! What’s going on with his swordsmanship?! Poking the sword into my stomach!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 79.00000000000001,
+        "end": 80.85000000000001,
+        "speaker": "chung myung",
+        "text": "“Ah, don’t push! Don’t push!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 80.85000000000001,
+        "end": 84.00000000000001,
+        "speaker": "narrator",
+        "text": "Excited gamblers scrambled to their knees.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 84.00000000000001,
+        "end": 87.55000000000001,
+        "speaker": "narrator",
+        "text": "And there was a person who looked happy at this crazy time.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 87.55000000000001,
+        "end": 92.25000000000001,
+        "speaker": "narrator",
+        "text": "Hyun Young, who was looking at the situation with Baek Sang, smiled brightly.",
+        "emotion": "happy"
+    },
+    {
+        "start": 92.25000000000001,
+        "end": 94.80000000000001,
+        "speaker": "hyun young",
+        "text": "“This is how you make money. What do you think?”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 94.80000000000001,
+        "end": 100.65,
+        "speaker": "narrator",
+        "text": "Unlike Hyun Young, who looked happy, Baek Sang was unable to shake off the strange feeling.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 100.65,
+        "end": 104.55000000000001,
+        "speaker": "narrator",
+        "text": "‘Is this really fine?’ Could money really be made in this way?",
+        "emotion": "neutral"
+    },
+    {
+        "start": 104.55000000000001,
+        "end": 106.97500000000001,
+        "speaker": "narrator",
+        "text": "Even by using a sub-sect?",
+        "emotion": "neutral"
+    },
+    {
+        "start": 106.97500000000001,
+        "end": 110.825,
+        "speaker": "hyun young",
+        "text": "“T-this is fine? Still, they are a sub-sect of Mount Hua, and here…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 110.825,
+        "end": 113.425,
+        "speaker": "hyun young",
+        "text": "“And do these sects not eat rice?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 113.425,
+        "end": 116.0,
+        "speaker": "narrator",
+        "text": "Sarcastically Hyun Young said,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 116.0,
+        "end": 128.0,
+        "speaker": "hyun young",
+        "text": "“Money doesn’t fall from the sky just because we are stuck in the mountains honing our Tao. From now on, you have to feed the bastards who cannot do anything other than wield a knife. You should be able to live by peeling off their skin.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 128.0,
+        "end": 131.575,
+        "speaker": "narrator",
+        "text": "It was a heartbreaking remark which came from experience.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 131.575,
+        "end": 138.375,
+        "speaker": "hyun young",
+        "text": "“Now matter how much you make, money is money! If it isn’t harming people or being earned in an illegal way, it is good to earn a little more.”",
+        "emotion": "angry"
+    },
+    {
+        "start": 138.375,
+        "end": 143.875,
+        "speaker": "narrator",
+        "text": "Baek Sang was beginning to sweat at the eyes of Hyun Young, which had begun to shine.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 143.875,
+        "end": 149.25,
+        "speaker": "narrator",
+        "text": "‘I think Elder has changed a lot more than I thoUght.’ Perhaps this was his influence too, for sure!",
+        "emotion": "angry"
+    },
+    {
+        "start": 149.25,
+        "end": 152.075,
+        "speaker": "hyun young",
+        "text": "“For the sake of Tao, we need to get money.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 152.075,
+        "end": 155.0,
+        "speaker": "hyun young",
+        "text": "“Right! And why do you think Shaolin was able to do this?”",
+        "emotion": "angry"
+    },
+    {
+        "start": 155.0,
+        "end": 157.025,
+        "speaker": "hyun young",
+        "text": "“Because they have a lot of money!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 157.025,
+        "end": 159.875,
+        "speaker": "narrator",
+        "text": "Hyun Young said with bloodshot eyes,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 159.875,
+        "end": 173.625,
+        "speaker": "hyun young",
+        "text": "“In most other places, even warriors who have achieved amazing feats must perform work to earn a penny or solve problems. But in Shaolin, just open the door, and money will come flowing in, so they can practice their Tao and martial arts without worrying! So they get to be strong! Damn it! I am so envious!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 173.625,
+        "end": 180.3,
+        "speaker": "hyun young",
+        "text": "“This is why you need to make money! Remember! How much money you earn determines how strong Mount Hua can get! Don’t take your role lightly!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 180.3,
+        "end": 182.20000000000002,
+        "speaker": "hyun young",
+        "text": "“I-I will keep that in mind!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 182.20000000000002,
+        "end": 190.57500000000002,
+        "speaker": "narrator",
+        "text": "Pressed down by the pressure exuding from Hyun Young, and thinking that the situation here was a bit different from what he had thoUght, Baek Sang stepped back.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 190.57500000000002,
+        "end": 193.8,
+        "speaker": "narrator",
+        "text": "A large wad of paper flew in from somewhere.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 193.8,
+        "end": 199.125,
+        "speaker": "narrator",
+        "text": "Wei Lishan’s eyes widened as if they were about to tear apart and confirmed what came in.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 199.125,
+        "end": 201.725,
+        "speaker": "narrator",
+        "text": "Large cheques with official seals.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 201.725,
+        "end": 207.04999999999998,
+        "speaker": "narrator",
+        "text": "‘Then how much is this?’ A familiar voice pierced the ear of Wei Lishan, who couldn’t dare touch it.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 207.04999999999998,
+        "end": 209.79999999999998,
+        "speaker": "hyun young",
+        "text": "“Ten thousand on Mount Hua’s Baek Cheon.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 209.79999999999998,
+        "end": 211.825,
+        "speaker": "narrator",
+        "text": "Everything went silent.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 211.825,
+        "end": 216.225,
+        "speaker": "narrator",
+        "text": "All eyes turned to the source of the sound, and Wei Lishan shouted,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 216.225,
+        "end": 218.125,
+        "speaker": "hyun young",
+        "text": "“D-Disciple Chung Myung!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 218.125,
+        "end": 222.45,
+        "speaker": "narrator",
+        "text": "Chung Myung walked ahead with a grin, Wei Lishan turned his head,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 222.45,
+        "end": 225.475,
+        "speaker": "chung myung",
+        "text": "“O-of course, but where did all this money come from…?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 225.475,
+        "end": 227.35,
+        "speaker": "chung myung",
+        "text": "“I have a lot of money.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 227.35,
+        "end": 231.025,
+        "speaker": "narrator",
+        "text": "Wei Lishan opened his mouth at those confident words.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 231.025,
+        "end": 235.225,
+        "speaker": "narrator",
+        "text": "And not just him, even the people around Baek Sang were shocked.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 235.225,
+        "end": 237.15,
+        "speaker": "narrator",
+        "text": "How could a Taoist bet?",
+        "emotion": "shocked"
+    },
+    {
+        "start": 237.15,
+        "end": 238.6,
+        "speaker": "narrator",
+        "text": "Ah, no.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 238.6,
+        "end": 251.275,
+        "speaker": "narrator",
+        "text": "Of course, Mount Hua was the one putting up the gambling table, so he couldn’t blame them, but… ‘Still, we are working under the name of Huayoung Gate.’ Wearing a robe engraved with Mount Hua’s plum blossom and gambling?",
+        "emotion": "neutral"
+    },
+    {
+        "start": 251.275,
+        "end": 254.125,
+        "speaker": "baek sang",
+        "text": "“That crazy bastard! Elder, I will kill him…!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 254.125,
+        "end": 260.8,
+        "speaker": "baek sang",
+        "text": "“Huhuhu. How did he get ten thousand? After all, it is our Chung Myung! Well, he knows how to get things! What a cute one!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 260.8,
+        "end": 263.875,
+        "speaker": "narrator",
+        "text": "It looks like something is wrong with your eyes…",
+        "emotion": "neutral"
+    },
+    {
+        "start": 263.875,
+        "end": 265.7,
+        "speaker": "baek sang",
+        "text": "“H-he should be stopped.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 265.7,
+        "end": 268.05,
+        "speaker": "baek sang",
+        "text": "“Why? Because everyone is watching…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 268.05,
+        "end": 271.55,
+        "speaker": "narrator",
+        "text": "When Baek Sang hesitated, Hyun Young snorted,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 271.55,
+        "end": 276.40000000000003,
+        "speaker": "hyun young",
+        "text": "“This is a table in Shaolin. Is there any rule on who can gamble and who shouldn’t?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 276.40000000000003,
+        "end": 280.15000000000003,
+        "speaker": "narrator",
+        "text": "Baek Sang turned in the direction Hyun Young was pointing.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 280.15000000000003,
+        "end": 282.45000000000005,
+        "speaker": "narrator",
+        "text": "People flocked for tokens.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 282.45000000000005,
+        "end": 285.02500000000003,
+        "speaker": "hyun young",
+        "text": "“Are these the correct money slips?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 285.02500000000003,
+        "end": 289.85,
+        "speaker": "narrator",
+        "text": "Before Wei Lishan could certify it, someone picked it up and began to check it.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 289.85,
+        "end": 293.57500000000005,
+        "speaker": "hyun young",
+        "text": "“T-this is the Continental Battle office’s slip! This is genuine!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 293.57500000000005,
+        "end": 297.27500000000003,
+        "speaker": "hyun young",
+        "text": "“I am the one who makes a living there! I am an employee of the Hebei branch!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 297.27500000000003,
+        "end": 299.725,
+        "speaker": "hyun young",
+        "text": "“U-Uh, I remember seeing you in Hebei!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 299.725,
+        "end": 303.125,
+        "speaker": "narrator",
+        "text": "A brief conversation that came to an abrupt end.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 303.125,
+        "end": 309.9,
+        "speaker": "narrator",
+        "text": "When it was confirmed that these 10,000 Nyang money slips were genuine, people’s eyes began to widen.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 309.9,
+        "end": 313.75,
+        "speaker": "narrator",
+        "text": "In an instant, the bet was multiplied several times.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 313.75,
+        "end": 317.375,
+        "speaker": "narrator",
+        "text": "The eyes of the gamblers who were looking at the amount turned.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 317.375,
+        "end": 322.7,
+        "speaker": "narrator",
+        "text": "’10,000 on Baek Cheon of Mount Hua?’ ‘The opponent is Southern Edge Sect’s Jong Seohan thoUgh!",
+        "emotion": "angry"
+    },
+    {
+        "start": 322.7,
+        "end": 330.5,
+        "speaker": "narrator",
+        "text": "Baek Cheon’s name might be more well known, but that didn’t account for much, it could not be said with certainty that Baek Cheon will win.’",
+        "emotion": "neutral"
+    },
+    {
+        "start": 330.5,
+        "end": 335.8,
+        "speaker": "narrator",
+        "text": "‘The Southern Edge Sect is also a sect that is known to have a good fighting ability.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 335.8,
+        "end": 339.25,
+        "speaker": "narrator",
+        "text": "There is a chance.’ Finally, a riot broke out.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 339.25,
+        "end": 342.6,
+        "speaker": "narrator",
+        "text": "Even those who looked around were biting their lips.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 342.6,
+        "end": 347.35,
+        "speaker": "narrator",
+        "text": "Those who had been quick to lay down their initial bets had broUght in more money.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 347.35,
+        "end": 349.45000000000005,
+        "speaker": "baek cheon",
+        "text": "“Kuak! Shut it and take the money!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 349.45000000000005,
+        "end": 351.20000000000005,
+        "speaker": "baek cheon",
+        "text": "“Hundred! Hundred more!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 351.20000000000005,
+        "end": 354.1,
+        "speaker": "baek cheon",
+        "text": "“What is this?! Take the money and check right away!?”",
+        "emotion": "angry"
+    },
+    {
+        "start": 354.1,
+        "end": 356.77500000000003,
+        "speaker": "narrator",
+        "text": "Hyun Young smiled at this, ‘Yes.",
+        "emotion": "happy"
+    },
+    {
+        "start": 356.77500000000003,
+        "end": 358.00000000000006,
+        "speaker": "narrator",
+        "text": "Yes.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 358.00000000000006,
+        "end": 362.30000000000007,
+        "speaker": "narrator",
+        "text": "Hurry up and pour them all in.’ The bigger the bets, the higher the fees.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 362.30000000000007,
+        "end": 368.37500000000006,
+        "speaker": "narrator",
+        "text": "Hopefully, the business for today would generate several months’ worth of expenses for Mount Hua.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 368.37500000000006,
+        "end": 373.57500000000005,
+        "speaker": "hyun young",
+        "text": "“If the bet is raised like that. They will start to re-evaluate, keep an eye on what Chung Myung is doing.”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 373.57500000000005,
+        "end": 377.725,
+        "speaker": "narrator",
+        "text": "Baek Sang realized why Hyun Young liked Chung Myung so much.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 377.725,
+        "end": 380.8,
+        "speaker": "narrator",
+        "text": "In the meantime, more bets were being made.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 380.8,
+        "end": 383.25,
+        "speaker": "narrator",
+        "text": "And the spar was soon to commence.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 383.25,
+        "end": 384.85,
+        "speaker": "chung myung",
+        "text": "“This is where it ends!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 384.85,
+        "end": 386.475,
+        "speaker": "chung myung",
+        "text": "“How can you stop here!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 386.475,
+        "end": 390.95000000000005,
+        "speaker": "chung myung",
+        "text": "“I need to stop before the match! There will be another round, so please understand!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 390.95000000000005,
+        "end": 393.00000000000006,
+        "speaker": "chung myung",
+        "text": "“They haven’t even started it yet!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 393.00000000000006,
+        "end": 396.7250000000001,
+        "speaker": "chung myung",
+        "text": "“You should take more bets until their swords are drawn! Accept it!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 396.7250000000001,
+        "end": 398.7750000000001,
+        "speaker": "chung myung",
+        "text": "“Just this one! Take this one!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 398.7750000000001,
+        "end": 402.1250000000001,
+        "speaker": "narrator",
+        "text": "Wei Lishan was sweating and glanced at Chung Myung.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 402.1250000000001,
+        "end": 405.72500000000014,
+        "speaker": "narrator",
+        "text": "Chung Myung nodded, and Wei Lishan nodded back.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 405.72500000000014,
+        "end": 408.0000000000001,
+        "speaker": "chung myung",
+        "text": "“Then I will take only those who are here!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 408.0000000000001,
+        "end": 410.97500000000014,
+        "speaker": "narrator",
+        "text": "It worked out, and somehow the stakes were settled.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 410.97500000000014,
+        "end": 414.7500000000001,
+        "speaker": "narrator",
+        "text": "Wei Lishan wiped away his sweat and approached Chung Myung.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 414.7500000000001,
+        "end": 418.4250000000001,
+        "speaker": "chung myung",
+        "text": "“Thanks to disciple Chung Myung, the betting grew, thank you.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 418.4250000000001,
+        "end": 423.1250000000001,
+        "speaker": "narrator",
+        "text": "Chung Myung slowly turned his head, and suddenly Hyun Young was smiling.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 423.1250000000001,
+        "end": 425.4250000000001,
+        "speaker": "chung myung",
+        "text": "“What? Everything has to be working out.”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 425.4250000000001,
+        "end": 430.65000000000015,
+        "speaker": "narrator",
+        "text": "It is Huayoung who is doing this, but it was Mount Hua who orchestrated this play.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 430.65000000000015,
+        "end": 433.47500000000014,
+        "speaker": "narrator",
+        "text": "Mount Hua would share the fee with Shaolin.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 433.47500000000014,
+        "end": 437.82500000000016,
+        "speaker": "narrator",
+        "text": "So the bigger the fees collected, the more money Mount Hua would make.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 437.82500000000016,
+        "end": 440.77500000000015,
+        "speaker": "narrator",
+        "text": "So Hyun Young was bound to be happy.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 440.77500000000015,
+        "end": 445.6750000000001,
+        "speaker": "hyun young",
+        "text": "“But, disciple Chung Myung, is this really fine? If you lose, will all your money be lost?”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 445.6750000000001,
+        "end": 450.60000000000014,
+        "speaker": "hyun young",
+        "text": "“I am not ignoring the skills of disciple Baek Cheon. But the results aren’t out yet.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 450.60000000000014,
+        "end": 453.47500000000014,
+        "speaker": "hyun young",
+        "text": "“Right. When the two are on the same level1.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 453.47500000000014,
+        "end": 458.2500000000001,
+        "speaker": "hyun young",
+        "text": "“Just because a tiger catches a cold, it doesn’t mean that it will lose to a rabbit.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 458.2500000000001,
+        "end": 462.1500000000001,
+        "speaker": "hyun young",
+        "text": "“And, losing is fine. I will get my money back by selling sasuk’s house!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 462.1500000000001,
+        "end": 466.80000000000007,
+        "speaker": "narrator",
+        "text": "Wei Lishan shook his head, looking at the shining eyes of Chung Myung,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 466.80000000000007,
+        "end": 469.57500000000005,
+        "speaker": "chung myung",
+        "text": "“But where did you get the money from? Did you…”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 469.57500000000005,
+        "end": 471.37500000000006,
+        "speaker": "chung myung",
+        "text": "“Ah. I was always rich.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 471.37500000000006,
+        "end": 474.25000000000006,
+        "speaker": "narrator",
+        "text": "To be precise, my sahyung was rich.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 474.25000000000006,
+        "end": 475.77500000000003,
+        "speaker": "narrator",
+        "text": "But what about it?",
+        "emotion": "shocked"
+    },
+    {
+        "start": 475.77500000000003,
+        "end": 480.35,
+        "speaker": "narrator",
+        "text": "This marvelous sajae would be the one spending it, and he could not even say anything!",
+        "emotion": "angry"
+    },
+    {
+        "start": 480.35,
+        "end": 482.425,
+        "speaker": "narrator",
+        "text": "-… I will see you later.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 482.425,
+        "end": 483.52500000000003,
+        "speaker": "narrator",
+        "text": "See.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 483.52500000000003,
+        "end": 485.40000000000003,
+        "speaker": "narrator",
+        "text": "He likes this so much!",
+        "emotion": "angry"
+    },
+    {
+        "start": 485.40000000000003,
+        "end": 488.40000000000003,
+        "speaker": "narrator",
+        "text": "Chung Myung giggled and looked at the stage.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 488.40000000000003,
+        "end": 491.32500000000005,
+        "speaker": "chung myung",
+        "text": "“Now, sasuk needs to do well and make money.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 491.32500000000005,
+        "end": 493.85,
+        "speaker": "narrator",
+        "text": "Jong Seohan roared at Baek Cheon,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 493.85,
+        "end": 500.90000000000003,
+        "speaker": "baek cheon",
+        "text": "“I will twist that mouth of yours. I won’t be merciful with you just because you are my sahyung’s younger brother.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 500.90000000000003,
+        "end": 503.12500000000006,
+        "speaker": "narrator",
+        "text": "At that, Baek Cheon laUghed.",
+        "emotion": "happy"
+    },
+    {
+        "start": 503.12500000000006,
+        "end": 505.17500000000007,
+        "speaker": "narrator",
+        "text": "Whose younger brother?",
+        "emotion": "neutral"
+    },
+    {
+        "start": 505.17500000000007,
+        "end": 510.70000000000005,
+        "speaker": "baek cheon",
+        "text": "“It seems like you don’t know anything about hyung despite being with him for that long.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 510.70000000000005,
+        "end": 512.125,
+        "speaker": "baek cheon",
+        "text": "“… what are you saying?”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 512.125,
+        "end": 519.425,
+        "speaker": "baek cheon",
+        "text": "“That person doesn’t care about blood relations. Rather, he is a person who is harsher on those with blood ties.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 519.425,
+        "end": 524.65,
+        "speaker": "narrator",
+        "text": "Jin Geum-Ryong was like that Of course, that wasn’t necessarily an insult.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 524.65,
+        "end": 527.75,
+        "speaker": "narrator",
+        "text": "It just didn’t go well with Baek Cheon’s character.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 527.75,
+        "end": 533.0,
+        "speaker": "narrator",
+        "text": "‘My family is Mount Hua.’ Baek Cheon looked at his opponent with low eyes and said,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 533.0,
+        "end": 537.775,
+        "speaker": "baek cheon",
+        "text": "“I am talking about this. A swordsman proving himself with sword in hand.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 537.775,
+        "end": 540.1,
+        "speaker": "narrator",
+        "text": "Jong Seohan went silent.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 540.1,
+        "end": 546.325,
+        "speaker": "narrator",
+        "text": "He couldn’t agree with the human named Baek Cheon, but he had no choice but to agree with those words.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 546.325,
+        "end": 548.6,
+        "speaker": "narrator",
+        "text": "He, too, was a swordsman.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 548.6,
+        "end": 552.975,
+        "speaker": "narrator",
+        "text": "Jong Seohan waved his sword lightly and then tightly grasped it.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 552.975,
+        "end": 557.275,
+        "speaker": "narrator",
+        "text": "After checking the sword in his hand, Baek Cheon also clenched his.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 557.275,
+        "end": 562.9,
+        "speaker": "narrator",
+        "text": "’12 Movement Snow Flower sword?’ It was a technique he saw several times already.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 562.9,
+        "end": 569.05,
+        "speaker": "narrator",
+        "text": "The sword that Jin Geum-Ryong and the other disciples used to destroy the Mount Hua disciples.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 569.05,
+        "end": 574.625,
+        "speaker": "narrator",
+        "text": "‘And the technique completely shattered by Chung Myung.’ But it couldn’t be ignored completely.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 574.625,
+        "end": 577.3,
+        "speaker": "narrator",
+        "text": "Because it isn’t a normal technique.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 577.3,
+        "end": 579.5999999999999,
+        "speaker": "narrator",
+        "text": "Baek Cheon took a deep breath.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 579.5999999999999,
+        "end": 584.925,
+        "speaker": "narrator",
+        "text": "Three years back, he was unilaterally defeated, unable to handle this technique.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 584.925,
+        "end": 588.025,
+        "speaker": "narrator",
+        "text": "No, in fact, defeat felt like the wrong word.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 588.025,
+        "end": 589.8249999999999,
+        "speaker": "narrator",
+        "text": "He was hit hard.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 589.8249999999999,
+        "end": 595.1999999999999,
+        "speaker": "narrator",
+        "text": "So now, he had to prove it, ‘How strong Mount Hua can be.’ Beyond the technique of Southern Edge!",
+        "emotion": "angry"
+    },
+    {
+        "start": 595.1999999999999,
+        "end": 601.5749999999999,
+        "speaker": "narrator",
+        "text": "From the tip of Jong Seohan’s sword, who was rushing with a scream, white flowers began to bloom.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 601.5749999999999,
+        "end": 604.775,
+        "speaker": "narrator",
+        "text": "They weren’t fully developed, but they were visible.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 604.775,
+        "end": 609.125,
+        "speaker": "narrator",
+        "text": "The flower blooming from the sword had a much sharper shape than in the past.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 609.125,
+        "end": 613.25,
+        "speaker": "narrator",
+        "text": "The white petals which were blooming swept to Baek Cheon with the wind.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 613.25,
+        "end": 615.575,
+        "speaker": "narrator",
+        "text": "A sword that was dazzling.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 615.575,
+        "end": 619.9250000000001,
+        "speaker": "narrator",
+        "text": "Obviously, in the past, he would have been too stunned, not knowing what to do.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 619.9250000000001,
+        "end": 622.1250000000001,
+        "speaker": "narrator",
+        "text": "Amazing and dazzling.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 622.1250000000001,
+        "end": 628.3000000000001,
+        "speaker": "narrator",
+        "text": "The sight he could see was a series of sword techniques that could give rise to goosebumps.",
+        "emotion": "sad"
+    },
+    {
+        "start": 628.3000000000001,
+        "end": 632.0000000000001,
+        "speaker": "narrator",
+        "text": "Yet, there felt something empty about his opponent’s sword.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 632.0000000000001,
+        "end": 635.8250000000002,
+        "speaker": "narrator",
+        "text": "In an instant, Baek Cheon’s sword shone with red sword qi.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 635.8250000000002,
+        "end": 642.0500000000002,
+        "speaker": "narrator",
+        "text": "When Baek Cheon lightly swung the sword, the petals flew away like they were being torn apart by the wind.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 642.0500000000002,
+        "end": 645.8750000000002,
+        "speaker": "narrator",
+        "text": "Jong Seohan, who was running, was startled and stepped back.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 645.8750000000002,
+        "end": 650.0500000000002,
+        "speaker": "narrator",
+        "text": "Baek Cheon looked at him with a serious expression and shook his head,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 650.0500000000002,
+        "end": 661.2250000000001,
+        "speaker": "chung myung",
+        "text": "“Now I understand the meaning of Chung Myung’s words. People pay attention to the beautiful flowers of the plum blossoms, but it is said that the hard roots which dig into the ground are what makes them bloom.”",
+        "emotion": "shocked"
+    },
+    {
+        "start": 661.2250000000001,
+        "end": 664.6000000000001,
+        "speaker": "narrator",
+        "text": "Mount Hua had been training hard to build such roots.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 664.6000000000001,
+        "end": 668.2000000000002,
+        "speaker": "narrator",
+        "text": "And that process would continue into the future too.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 668.2000000000002,
+        "end": 672.7250000000001,
+        "speaker": "narrator",
+        "text": "Not to be glamorous, but to have the heaviness which supports its splendor.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 672.7250000000001,
+        "end": 675.0250000000001,
+        "speaker": "narrator",
+        "text": "But not the Southern Edge Sect.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 675.0250000000001,
+        "end": 678.5500000000001,
+        "speaker": "narrator",
+        "text": "They just made the blooming flowers look more dazzling.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 678.5500000000001,
+        "end": 683.1,
+        "speaker": "narrator",
+        "text": "Then the more they did, the more they didn’t realize that the tree was dying.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 683.1,
+        "end": 685.625,
+        "speaker": "narrator",
+        "text": "-Southern Edge Sect is done for.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 685.625,
+        "end": 690.775,
+        "speaker": "narrator",
+        "text": "Baek Cheon only now understood what Chung Myung’s words meant and relaxed his shoulders.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 690.775,
+        "end": 693.55,
+        "speaker": "narrator",
+        "text": "And put weight onto his lower body.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 693.55,
+        "end": 696.65,
+        "speaker": "narrator",
+        "text": "To avoid making the same mistakes as them,",
+        "emotion": "neutral"
+    },
+    {
+        "start": 696.65,
+        "end": 699.675,
+        "speaker": "chung myung",
+        "text": "“I don’t know if you can understand by looking at it.”",
+        "emotion": "neutral"
+    },
+    {
+        "start": 699.675,
+        "end": 702.4,
+        "speaker": "narrator",
+        "text": "Baek Cheon slashed his sword in the air.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 702.4,
+        "end": 705.125,
+        "speaker": "narrator",
+        "text": "Plum Blossoms of Mount Hua Bloom.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 705.125,
+        "end": 709.725,
+        "speaker": "narrator",
+        "text": "The reason plum blossoms bloom again is because of the plum trees.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 709.725,
+        "end": 713.1750000000001,
+        "speaker": "narrator",
+        "text": "What they pursue isn’t the flower, but the tree that makes them.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 713.1750000000001,
+        "end": 717.975,
+        "speaker": "narrator",
+        "text": "Red petals bloomed from the tip of Baek Cheon’s sword aimed at the opponent.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 717.975,
+        "end": 723.0500000000001,
+        "speaker": "narrator",
+        "text": "The flower petals that bloomed spread out and filled the entire place in red.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 723.0500000000001,
+        "end": 726.325,
+        "speaker": "narrator",
+        "text": "Overwhelmingly it was a reddish-black color.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 726.325,
+        "end": 731.35,
+        "speaker": "narrator",
+        "text": "It was obviously their technique, the Snow Flower Technique, but different too.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 731.35,
+        "end": 735.625,
+        "speaker": "narrator",
+        "text": "He couldn’t put it into words, but it felt different at the same time.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 735.625,
+        "end": 740.575,
+        "speaker": "narrator",
+        "text": "Something lacking in his own sword was there in the sword of Mount Hua’s disciple.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 740.575,
+        "end": 743.9000000000001,
+        "speaker": "narrator",
+        "text": "Jong Seohan clenched his teeth and shook his sword.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 743.9000000000001,
+        "end": 746.7750000000001,
+        "speaker": "narrator",
+        "text": "The white petals bloomed up from the sword.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 746.7750000000001,
+        "end": 750.8500000000001,
+        "speaker": "narrator",
+        "text": "However, his white petals couldn’t withstand the plum blossom petals.",
+        "emotion": "shocked"
+    },
+    {
+        "start": 750.8500000000001,
+        "end": 757.2750000000001,
+        "speaker": "narrator",
+        "text": "The pure white petals collided with plum blossom petals, and they melted like snow in the warm sun.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 757.2750000000001,
+        "end": 759.2750000000001,
+        "speaker": "baek cheon",
+        "text": "“T-this cannot be! No!”",
+        "emotion": "angry"
+    },
+    {
+        "start": 759.2750000000001,
+        "end": 764.6750000000001,
+        "speaker": "narrator",
+        "text": "Jong Seohan grabbed his sword, screamed, and ran into the plum blossom forest.",
+        "emotion": "neutral"
+    },
+    {
+        "start": 764.6750000000001,
+        "end": 774.3750000000001,
+        "speaker": "narrator",
+        "text": "ED/N: He is saying that the outcome has already been decided since Baek Cheon is on another level compared to his opponent↩️ Return of the Mount Hua Sect",
+        "emotion": "neutral"
+    }
+]

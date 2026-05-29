@@ -8,6 +8,13 @@ import chapter286 from "../assets/chapters/chapter_286.jpg";
 import chapter287 from "../assets/chapters/chapter_287.jpg";
 import chapter288 from "../assets/chapters/chapter_288.jpg";
 
+
+import bg1 from "../assets/player/player_bg_blossoms2.jpg";
+import bg2 from "../assets/player/player_bg_skytemple.jpg";
+import bg3 from "../assets/player/player_bg_night.jpg";
+import bg4 from "../assets/player/player_bg_blossoms.jpg";
+import bg5 from "../assets/player/player_bg_training.jpg";
+
 import { useEffect, useState } from "react";
 
 import BackgroundVideo from "../components/BackgroundVideo";
@@ -20,7 +27,24 @@ from "../components/AudioProvider";
 
 export default function Player() {
 
+  const backgrounds = [
+
+  bg1,
+  bg2,
+  bg3,
+  bg4,
+  bg5
+
+];
+
+const [backgroundMode, setBackgroundMode] =
+  useState("video");
+
+const [backgroundIndex, setBackgroundIndex] =
+  useState(0);
+
   const narrationRef = useRef(null);
+  const playerRef = useRef(null);
 
   const [sidebarOpen, setSidebarOpen] =
   useState(true);
@@ -108,6 +132,49 @@ useEffect(() => {
 }, []);
 
 
+useEffect(() => {
+
+  const savedMode =
+    localStorage.getItem(
+      "backgroundMode"
+    );
+
+  const savedIndex =
+    localStorage.getItem(
+      "backgroundIndex"
+    );
+
+  if (savedMode)
+    setBackgroundMode(
+      savedMode
+    );
+
+  if (savedIndex)
+    setBackgroundIndex(
+      Number(savedIndex)
+    );
+
+}, []);
+
+useEffect(() => {
+
+  localStorage.setItem(
+    "backgroundMode",
+    backgroundMode
+  );
+
+  localStorage.setItem(
+    "backgroundIndex",
+    backgroundIndex
+  );
+
+}, [
+
+  backgroundMode,
+  backgroundIndex
+
+]);
+
 
 ///SUBTITLE TRACKER
 useEffect(() => {
@@ -162,6 +229,60 @@ useEffect(() => {
 
 }, [timestamps]);
 
+
+
+function nextBackground() {
+
+  setBackgroundIndex(
+
+    prev =>
+
+      (prev + 1)
+
+      %
+
+      backgrounds.length
+
+  );
+
+}
+
+function previousBackground() {
+
+  setBackgroundIndex(
+
+    prev =>
+
+      prev === 0
+
+        ?
+
+        backgrounds.length - 1
+
+        :
+
+        prev - 1
+
+  );
+
+}
+
+
+function toggleFullscreen() {
+
+  if (!document.fullscreenElement) {
+
+    playerRef.current?.requestFullscreen();
+
+  }
+
+  else {
+
+    document.exitFullscreen();
+
+  }
+
+}
   // ========================================
   // PLAY / PAUSE TOGGLE
   // ========================================
@@ -335,56 +456,132 @@ useEffect(() => {
 ]);
 
 
+//top right buttons 
+const topButtonClass = `
+  w-14
+  h-14
+
+  rounded-full
+
+  bg-black/40
+
+  backdrop-blur-xl
+
+  border
+  border-white/10
+
+  flex
+  items-center
+  justify-center
+
+  text-xl
+
+  hover:scale-105
+  hover:bg-white/10
+
+  transition-all
+  duration-300
+`;
+
+
   return (
 
-    <div className="
-      w-screen
-      h-screen
-      flex
-      bg-black
-      text-white
-      overflow-hidden
-    ">
+   <div
 
-      
-    <button
-
-      onClick={toggleMute}
+      ref={playerRef}
 
       className="
-        absolute
-        top-6
-        right-6
-        z-50
-        w-14
-        h-14
-        rounded-full
-        bg-black/50
-        backdrop-blur-xl
-        text-2xl
-        hover:scale-110
-        transition-all
+        w-screen
+        h-screen
+        flex
+        bg-black
+        text-white
+        overflow-hidden
       "
 
     >
 
-      {
+      <div
 
-        muted
+  className="
+    absolute
+    top-6
+    right-6
 
-        ?
+    z-50
 
-        "🔇"
+    flex
+    items-center
+    gap-3
+  "
 
-        :
+>
 
-        "🎵"
+  {/* wallpaper */}
+   <button
 
-      }
+  onClick={() =>
 
-    </button>
+    setBackgroundMode(
 
-    <button
+      prev =>
+
+        prev === "video"
+
+          ? "image"
+
+          : "video"
+
+    )
+
+  }
+
+  className={`
+    ${topButtonClass}
+
+    ${
+      backgroundMode === "image"
+
+        ? "bg-cyan-500/30 border-cyan-400"
+
+        : ""
+    }
+  `}
+
+>
+
+  🖼
+
+</button>
+  {/* previous */}
+  
+   <button
+
+  onClick={previousBackground}
+
+  className={topButtonClass}
+
+>
+
+  ❮
+
+</button>
+
+  {/* next */}
+  
+     <button
+
+  onClick={nextBackground}
+
+  className={topButtonClass}
+
+>
+
+  ❯
+
+</button>
+  {/* subtitles */}
+       <button
 
   onClick={() =>
 
@@ -394,89 +591,138 @@ useEffect(() => {
 
   }
 
-  className="
-    absolute
-    top-6
-    right-24
-    z-50
-    px-4
-    py-3
-    rounded-xl
-    bg-black/50
-    backdrop-blur-xl
-  "
+  className={`
+    ${topButtonClass}
+
+    font-bold
+    text-sm
+
+    ${
+      subtitlesEnabled
+
+        ? "bg-cyan-500/30 border-cyan-400"
+
+        : ""
+    }
+  `}
+
+>
+
+  CC
+
+</button>
+
+
+  {/* audio */}
+  <button
+
+  onClick={toggleMute}
+
+  className={`
+    ${topButtonClass}
+
+    ${
+      !muted
+
+        ? "bg-cyan-500/30 border-cyan-400"
+
+        : ""
+    }
+  `}
 
 >
 
   {
 
-    subtitlesEnabled
+    muted
 
-    ?
+      ? "🔇"
 
-    "📖 ON"
-
-    :
-
-    "📖 OFF"
+      : "🔊"
 
   }
 
 </button>
-<button
 
-  onClick={() =>
+</div>
+    
 
-    setSidebarOpen(
-      prev => !prev
+
+     
+
+
+   
+
+      {/* SIDEBAR */}
+
+      <div className="relative">
+
+  {
+
+    sidebarOpen && (
+
+      <Sidebar
+
+        chapter={chapter}
+        setChapter={setChapter}
+
+        search={search}
+        setSearch={setSearch}
+
+      />
+
     )
 
   }
 
-  className="
-    absolute
-    top-6
-    left-6
-    z-50
+  <button
 
-    w-12
-    h-12
+    onClick={() =>
 
-    rounded-xl
+      setSidebarOpen(
+        prev => !prev
+      )
 
-    bg-black/50
+    }
 
-    backdrop-blur-xl
-  "
+    className="
+      absolute
+      top-1/2
+      -right-4
 
->
+      -translate-y-1/2
 
-  ☰
+      z-50
 
-</button>
+      w-8
+      h-20
 
+      rounded-r-xl
 
-      {/* SIDEBAR */}
+      bg-cyan-500
 
-      {
+      text-black
 
-  sidebarOpen && (
+      font-bold
 
-    <Sidebar
+      shadow-lg
+    "
 
-      chapter={chapter}
+  >
 
-      setChapter={setChapter}
+    {
 
-      search={search}
+      sidebarOpen
 
-      setSearch={setSearch}
+        ? "◀"
 
-    />
+        : "▶"
 
-  )
+    }
 
-}
+  </button>
+
+</div>
 
       {/* PLAYER */}
 
@@ -486,7 +732,41 @@ useEffect(() => {
         overflow-hidden
       ">
 
-        <BackgroundVideo  />
+        {
+
+  backgroundMode === "video"
+
+  ? (
+
+      <BackgroundVideo />
+
+    )
+
+  : (
+
+      <img
+
+        src={
+          backgrounds[
+            backgroundIndex
+          ]
+        }
+
+        alt="background"
+
+        className="
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-cover
+        "
+
+      />
+
+    )
+
+}
 
         <div
 
@@ -601,7 +881,9 @@ useEffect(() => {
           {/* CONTROLS */}
 
           <Controls
+
             status={status}
+
             togglePlayback={togglePlayback}
 
             seekAudio={seekAudio}
@@ -609,6 +891,10 @@ useEffect(() => {
             changeVolume={changeVolume}
 
             changeSpeed={changeSpeed}
+
+            toggleFullscreen={
+              toggleFullscreen
+            }
 
           />
 

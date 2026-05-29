@@ -1,4 +1,4 @@
-
+import logo from "../assets/logos/logo_icon_transparent.png";
 export default function Sidebar({
 
   chapter,
@@ -39,25 +39,48 @@ export default function Sidebar({
 
       {/* HEADER */}
 
-      <div className="mb-8">
+      <div className="
+        mb-8
+        flex
+        items-center
+        gap-4
+      ">
 
-        <h1 className="
-          text-4xl
-          font-bold
-        ">
+        <img
 
-          ⚔️ Mount Hua
+          src={logo}
 
-        </h1>
+          alt="Mount Hua"
 
-        <p className="
-          text-zinc-400
-          mt-2
-        ">
+          className="
+            w-14
+            h-14
+            object-contain
+          "
 
-          Cinematic Audiobook
+        />
 
-        </p>
+        <div>
+
+          <h1 className="
+            text-4xl
+            font-bold
+          ">
+
+            Mount Hua
+
+          </h1>
+
+          <p className="
+            text-zinc-400
+            text-sm
+          ">
+
+            Cinematic Audiobook
+
+          </p>
+
+        </div>
 
       </div>
 
