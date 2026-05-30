@@ -6,8 +6,16 @@ import {
 
 import { useNavigate } from "react-router-dom";
 import {
-  getContinueWatching
-} from "../utils/continueWatching";
+
+  saveProgress,
+
+  getContinueWatching,
+
+  getChapterProgress
+
+}
+
+from "../utils/progress";
 import {
   Play,
   Flame,
@@ -20,6 +28,10 @@ import {
   Image,
   Film
 } from "lucide-react";
+
+import {
+  loadChapters
+} from "../utils/chapters";
 
 import AnimeCard from "../components/AnimeCard";
 import { useGlobalAudio } from "../components/AudioProvider";
@@ -56,6 +68,16 @@ export default function HomePage() {
     heroBg3
   ];
 
+  const chapterImages = {
+  285: chapter285,
+  286: chapter286,
+  287: chapter287,
+  288: chapter288
+};
+
+  const [chaptersMap, setChaptersMap] =
+  useState({});
+
   const [bgIndex, setBgIndex] = useState(0);
 
   const [videoMode, setVideoMode] = useState(true);
@@ -74,6 +96,15 @@ export default function HomePage() {
 
   }, []);
 
+  const fallbackImages = [
+
+  chapter285,
+  chapter286,
+  chapter287,
+  chapter288,
+  remaining
+
+];
 
 
   async function handleStart() {
@@ -117,6 +148,57 @@ export default function HomePage() {
 
   }
 
+  useEffect(() => {
+
+  async function fetchChapters() {
+
+    const chapters =
+      await loadChapters();
+
+    const map = {};
+
+    chapters.forEach(chapter => {
+
+      map[
+        chapter.chapter
+      ] = chapter;
+
+    });
+
+    setChaptersMap(map);
+
+  }
+
+  fetchChapters();
+
+}, []);
+
+
+function getChapterImage(
+  chapter
+) {
+
+  if (
+    chapterImages[
+      chapter
+    ]
+  ) {
+
+    return chapterImages[
+      chapter
+    ];
+
+  }
+
+  return fallbackImages[
+
+    chapter %
+
+    fallbackImages.length
+
+  ];
+
+}
 
 
   return (
@@ -608,9 +690,26 @@ export default function HomePage() {
             <button
 
               onClick={() =>
+                    {
+                if (continueWatching.length > 0) {
 
-                navigate("/player")
+                const latest =
+                  continueWatching[0];
 
+                navigate(
+
+                  `/player?chapter=${latest.chapter}&time=${latest.currentTime}&autoplay=1`
+
+                );
+
+              }
+
+              else {
+
+                navigate("/player");
+
+              }
+                    }
               }
 
               className="
@@ -704,11 +803,23 @@ export default function HomePage() {
 
                 key={item.chapter}
 
-                title={item.title}
+                title={
+                  chaptersMap[
+                    item.chapter
+                  ]?.title
+
+                  ||
+
+                  "Loading..."
+                }
 
                 chapter={item.chapter}
 
-                image={item.image}
+                image={
+                  getChapterImage(
+                    item.chapter
+                  )
+                }
 
                 progress={item.progress}
 
@@ -716,7 +827,11 @@ export default function HomePage() {
 
                   navigate(
 
-                    `/player?chapter=${item.chapter}`
+                    `/player?chapter=${
+                      item.chapter
+                    }&time=${
+                      item.currentTime
+                    }`
 
                   )
 
@@ -776,23 +891,22 @@ export default function HomePage() {
             pb-2
           ">
 
-            <AnimeCard
-              title="The Heavenly Battle"
-              chapter="286"
-              image={chapter286}
-            />
+           {[286,287,288].map((chapter) => (
 
             <AnimeCard
-              title="Sword Saint Legacy"
-              chapter="287"
-              image={chapter287}
+              key={chapter}
+              title={
+                chaptersMap[chapter]?.title
+                || "Loading..."
+              }
+              chapter={chapter}
+              image={getChapterImage(chapter)}
+              onClick={() =>
+                navigate(`/player?chapter=${chapter}&autoplay=1`)
+              }
             />
 
-            <AnimeCard
-              title="Mount Hua Awakens"
-              chapter="288"
-              image={chapter288}
-            />
+          ))}
 
           </div>
 
@@ -829,23 +943,22 @@ export default function HomePage() {
             pb-2
           ">
 
-            <AnimeCard
-              title="Future Chaos"
-              chapter="290+"
-              image={remaining}
-            />
+            {[290,390,491].map((chapter) => (
 
             <AnimeCard
-              title="Peak Chung Myung"
-              chapter="300+"
-              image={remaining}
+              key={chapter}
+              title={
+                chaptersMap[chapter]?.title
+                || "Loading..."
+              }
+              chapter={chapter}
+              image={getChapterImage(chapter)}
+              onClick={() =>
+                navigate(`/player?chapter=${chapter}&autoplay=1`)
+              }
             />
 
-            <AnimeCard
-              title="Legendary Sect"
-              chapter="310+"
-              image={remaining}
-            />
+          ))}
 
           </div>
 

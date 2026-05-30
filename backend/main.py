@@ -7,7 +7,19 @@ from fastapi.middleware.cors import (
 
 from api.routes import router
 
+from api.chapter_routes import (
+    router as chapter_router
+)
+
+
+
 app = FastAPI()
+
+
+app.include_router(
+    chapter_router
+)
+
 
 # ============================================
 # CORS

@@ -5,12 +5,14 @@ export default function Sidebar({
   setChapter,
 
   search,
-  setSearch
+  setSearch,
+
+  chaptersMap
 
 }) {
 
   const chapters = Array.from(
-    { length: 100 },
+    { length: 989 },
     (_, i) => 285 + i
   );
 
@@ -36,6 +38,7 @@ export default function Sidebar({
       flex
       flex-col
     ">
+      
 
       {/* HEADER */}
 
@@ -113,6 +116,63 @@ export default function Sidebar({
 
       />
 
+<div className="
+  mb-6
+
+  p-4
+
+  rounded-2xl
+
+  bg-cyan-500/10
+
+  border
+  border-cyan-500/30
+">
+
+  <p className="
+    text-xs
+    uppercase
+    tracking-widest
+
+    text-cyan-300
+
+    mb-2
+  ">
+
+    Now Playing
+
+  </p>
+
+  <h2 className="
+    text-lg
+    font-bold
+  ">
+
+    Chapter {chapter}
+
+  </h2>
+
+  <p className="
+    text-zinc-300
+    text-sm
+    mt-1
+  ">
+
+    {
+
+      chaptersMap[
+        chapter
+      ]?.title
+
+      ||
+
+      "Loading..."
+
+    }
+
+  </p>
+
+</div>
       {/* CHAPTERS */}
 
       <div className="
@@ -167,8 +227,15 @@ export default function Sidebar({
               mt-1
             ">
 
-              Mount Hua Sect
+              {
 
+                chaptersMap[c]?.title
+
+                ||
+
+                "Loading..."
+
+              }
             </p>
 
           </div>

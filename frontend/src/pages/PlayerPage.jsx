@@ -1,7 +1,16 @@
 import {
-  saveContinueWatching
-} from "../utils/continueWatching";
+
+  saveProgress,
+  getChapterProgress
+
+}
+
+from "../utils/progress";
 import { useRef } from "react";
+import {
+  useSearchParams
+}
+from "react-router-dom";
 
 import chapter285 from "../assets/chapters/chapter_285.jpg";
 import chapter286 from "../assets/chapters/chapter_286.jpg";
@@ -25,7 +34,19 @@ import { useGlobalAudio }
 from "../components/AudioProvider";
 
 
+import { loadChapters }
+from "../utils/chapters";
+
 export default function Player() {
+
+  const [searchParams] =
+  useSearchParams();
+
+  const autoPlayFromUrl =
+
+  searchParams.get(
+    "autoplay"
+  ) === "1";
 
   const backgrounds = [
 
@@ -49,9 +70,29 @@ const [backgroundIndex, setBackgroundIndex] =
   const [sidebarOpen, setSidebarOpen] =
   useState(true);
 
-  const [chapter, setChapter] =
-    useState(285);
+  const [autoNext, setAutoNext] =
+useState(
 
+  localStorage.getItem(
+    "mount_hua_autonext"
+  ) === "true"
+
+);
+
+ const [chapter, setChapter] =
+  useState(
+
+    Number(
+
+      searchParams.get(
+        "chapter"
+      )
+
+    )
+
+    || 285
+
+  );
   const [status, setStatus] = useState({
   playing: false,
   paused: true,
@@ -60,6 +101,11 @@ const [backgroundIndex, setBackgroundIndex] =
   volume: 300,
   speed: 1
 });
+
+
+
+const [chaptersMap, setChaptersMap] =
+  useState({});
 
   const [search, setSearch] =
     useState("");
@@ -86,7 +132,10 @@ const [currentSubtitle, setCurrentSubtitle] =
   } = useGlobalAudio();
 
 
-  const API = "http://127.0.0.1:8000";  
+
+  const API =
+  `http://${window.location.hostname}:8000`;
+  //const API = "http://127.0.0.1:8000";  
   
  // const API =
   //"http://192.168.31.242:8000";
@@ -103,6 +152,12 @@ const chapterImages = {
   288: chapter288,
 
 };
+
+const firstLoadRef =
+  useRef(true);
+
+const shouldAutoPlayRef =
+  useRef(false);
 
 useEffect(() => {
 
@@ -236,6 +291,114 @@ useEffect(() => {
 }, [timestamps]);
 
 
+useEffect(() => {
+
+  const audio =
+    narrationRef.current;
+
+  if (!audio)
+    return;
+
+  audio.onended = () => {
+
+    saveCurrentProgress();
+
+    if (autoNext) {
+
+      shouldAutoPlayRef.current =
+      true;
+
+      setChapter(
+        prev => prev + 1
+      );
+
+    }
+
+  };
+
+}, [autoNext]);
+
+
+useEffect(() => {
+
+  async function fetchChapters() {
+
+    const chapters =
+      await loadChapters();
+
+    const map = {};
+
+    chapters.forEach(chapter => {
+
+      map[
+        chapter.chapter
+      ] = chapter;
+
+    });
+
+    setChaptersMap(map);
+
+  }
+
+  fetchChapters();
+
+}, []);
+
+useEffect(() => {
+
+  const audio =
+    narrationRef.current;
+
+  if (!audio)
+    return;
+
+  audio.pause();
+
+  audio.removeAttribute("src");
+
+  audio.load();
+
+  setStatus(prev => ({
+
+    ...prev,
+
+    current_time: 0,
+    duration: 0,
+
+    playing: false,
+    paused: true
+
+  }));
+
+  setCurrentSubtitle(null);
+
+  setCurrentSubtitleIndex(-1);
+
+  setTimestamps([]);
+
+}, [chapter]);
+
+useEffect(() => {
+
+  if (
+
+    shouldAutoPlayRef.current
+
+  ) {
+
+    shouldAutoPlayRef.current =
+      false;
+
+    setTimeout(() => {
+
+      togglePlayback();
+
+    }, 200);
+
+  }
+
+}, [chapter]);
+
 
 function nextBackground() {
 
@@ -273,6 +436,104 @@ function previousBackground() {
 
 }
 
+function changeChapter(newChapter) {
+
+  const audio =
+    narrationRef.current;
+
+  if (
+
+    audio
+
+    &&
+
+    audio.duration > 0
+
+  ) {
+
+   const duration =
+  narrationRef.current
+    ?.duration || 0;
+
+if (!duration)
+  return;
+
+const progress =
+  Math.floor(
+
+    (
+      narrationRef.current
+        .currentTime
+
+      /
+
+      duration
+
+    ) * 100
+
+  );
+   saveProgress(
+
+  chapter,
+
+  narrationRef.current
+    ?.currentTime || 0,
+
+  narrationRef.current
+    ?.duration || 0
+
+);
+
+  }
+
+  shouldAutoPlayRef.current =
+  true;
+
+  setChapter(
+    newChapter
+  );
+
+}
+
+function previousChapter() {
+
+  if (chapter <= 285)
+    return;
+
+  shouldAutoPlayRef.current =
+    true;
+
+  setChapter(
+    chapter - 1
+  );
+
+}
+function nextChapter() {
+
+  shouldAutoPlayRef.current =
+    true;
+
+  setChapter(
+    chapter + 1
+  );
+
+}
+function toggleAutoNext() {
+
+  const next =
+    !autoNext;
+
+  setAutoNext(next);
+
+  localStorage.setItem(
+
+    "mount_hua_autonext",
+
+    next
+
+  );
+
+}
 
 function toggleFullscreen() {
 
@@ -293,22 +554,22 @@ function toggleFullscreen() {
   // PLAY / PAUSE TOGGLE
   // ========================================
 async function togglePlayback() {
+  saveCurrentProgress();
 
   const audio = narrationRef.current;
 
   if (!audio)
     return;
 
-  const currentChapterUrl =
-    `${API}/audio/${chapter}`;
-
   // Same chapter already loaded
 
   if (
-    audio.src.includes(
-      `/audio/${chapter}`
-    )
-  ) {
+
+  audio.src.endsWith(
+    `/audio/${chapter}`
+  )
+
+) {
 
     if (audio.paused)
       await audio.play();
@@ -319,6 +580,8 @@ async function togglePlayback() {
 
   }
 
+
+
   // New chapter selected
 
   const res = await fetch(
@@ -328,6 +591,7 @@ async function togglePlayback() {
     }
   );
 
+  
   const data =
     await res.json();
 
@@ -344,11 +608,90 @@ async function togglePlayback() {
     );
 
   audio.src =
-    API + data.audio_url;
+  API + data.audio_url;
+
+audio.onloadedmetadata =
+async () => {
+
+  let savedTime = 0;
+
+  if (
+
+    firstLoadRef.current
+
+  ) {
+
+    savedTime =
+      Number(
+
+        searchParams.get(
+          "time"
+        )
+
+      ) || 0;
+
+    firstLoadRef.current =
+      false;
+
+  }
+
+  if (!savedTime) {
+
+    const saved =
+      getChapterProgress(
+        chapter
+      );
+
+    savedTime =
+      saved?.time || 0;
+
+    console.log(
+      "RESTORE:",
+      saved
+    );
+
+  }
+
+  if (
+
+    savedTime > 0
+
+    &&
+
+    savedTime < audio.duration
+
+  ) {
+
+    audio.currentTime =
+      savedTime;
+
+      console.log(
+        "AFTER SEEK:",
+        audio.currentTime
+      );
+
+  }
+
+  if (
+
+  autoPlayFromUrl
+
+) {
+
+  shouldAutoPlayRef.current =
+    true;
+
+} {
 
   await audio.play();
 
 }
+
+};
+  }
+
+
+
   // ========================================
   // SEEK
   // ========================================
@@ -410,56 +753,107 @@ function changeSpeed(value) {
 }
 
 
+function saveCurrentProgress() {
+
+  const audio =
+    narrationRef.current;
+
+  if (!audio)
+    return;
+
+  if (!audio.duration)
+    return;
+
+  saveProgress(
+
+    chapter,
+
+    audio.currentTime,
+
+    audio.duration
+
+  );
+
+}
+
   //AUTO SAVE PROGRESS
 useEffect(() => {
 
   if (!status.duration)
     return;
 
-  const interval = setInterval(() => {
+  const interval =
+    setInterval(() => {
 
-    const progress = Math.floor(
+      const progress =
+        Math.floor(
 
-      (
-        status.current_time
-        /
-        status.duration
-      ) * 100
+          (
+            narrationRef.current
+              ?.currentTime
 
-    );
+            /
 
-    saveContinueWatching({
+            narrationRef.current
+              ?.duration
 
-      chapter,
+          ) * 100
 
-      title:
-        "Mount Hua Return",
+        );
 
-      image:
-        chapterImages[chapter],
+      saveProgress(
 
-      progress,
+  chapter,
 
-      currentTime:
-        status.current_time,
+  narrationRef.current
+    ?.currentTime || 0,
 
-      duration:
-        status.duration
+  narrationRef.current
+    ?.duration || 0
 
-    });
-
-  }, 5000);
+);
+    }, 5000);
 
   return () =>
-    clearInterval(interval);
+    clearInterval(
+      interval
+    );
 
 }, [
 
-  status.current_time,
-  status.duration,
-  chapter
-
+  chapter,
+  chaptersMap
 ]);
+
+
+useEffect(() => {
+
+  const handler = () => {
+
+    saveCurrentProgress();
+
+  };
+
+  window.addEventListener(
+    "beforeunload",
+    handler
+  );
+
+  return () =>
+
+    window.removeEventListener(
+      "beforeunload",
+      handler
+    );
+
+}, [
+
+  chapter,
+  chaptersMap
+]);
+
+
+
 
 
 //top right buttons 
@@ -670,10 +1064,16 @@ const topButtonClass = `
       <Sidebar
 
         chapter={chapter}
-        setChapter={setChapter}
+        setChapter={
+          changeChapter
+        }
 
         search={search}
         setSearch={setSearch}
+
+        chaptersMap={
+          chaptersMap
+        }
 
       />
 
@@ -801,29 +1201,31 @@ const topButtonClass = `
 
           {/* HEADER */}
 
-          <div className="p-8">
+        
 
-            <h1 className="
-              text-5xl
-              font-bold
+
+         <div className="
+            absolute
+            top-6
+            left-8
+            z-40
             ">
 
-              Return of the Mount Hua Sect
+              <h1 className="
+                text-4xl
+                font-bold
+              ">
+                {chaptersMap[chapter]?.title}
+              </h1>
 
-            </h1>
+              <p className="
+                text-zinc-300
+                mt-1
+              ">
+                Chapter {chapter}
+              </p>
 
-            <p className="
-              text-zinc-300
-              mt-3
-              text-lg
-            ">
-
-              Chapter {chapter}
-
-            </p>
-
-          </div>
-
+            </div>
           {/* SUBTITLE */}
 
           <div className="
@@ -887,22 +1289,37 @@ const topButtonClass = `
           {/* CONTROLS */}
 
           <Controls
+          status={status}
 
-            status={status}
+          togglePlayback={togglePlayback}
 
-            togglePlayback={togglePlayback}
+          seekAudio={seekAudio}
 
-            seekAudio={seekAudio}
+          changeVolume={changeVolume}
 
-            changeVolume={changeVolume}
+          changeSpeed={changeSpeed}
 
-            changeSpeed={changeSpeed}
+          chapter={chapter}
 
-            toggleFullscreen={
-              toggleFullscreen
-            }
+          previousChapter={
+            previousChapter
+          }
 
-          />
+          nextChapter={
+            nextChapter
+          }
+
+          autoNext={
+            autoNext
+          }
+
+          toggleAutoNext={
+            toggleAutoNext
+          }
+          toggleFullscreen={
+          toggleFullscreen
+        }
+/>
 
         </div>
 

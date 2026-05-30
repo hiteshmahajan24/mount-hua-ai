@@ -1,4 +1,3 @@
-
 const STORAGE_KEY = "mount_hua_continue";
 
 export function getContinueWatching() {

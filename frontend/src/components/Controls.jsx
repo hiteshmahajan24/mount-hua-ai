@@ -1,10 +1,23 @@
 export default function Controls({
 
   status,
+
   togglePlayback,
+
   seekAudio,
+
   changeVolume,
+
   changeSpeed,
+
+  previousChapter,
+
+  nextChapter,
+
+  autoNext,
+
+  toggleAutoNext,
+
   toggleFullscreen
 
 }){
@@ -98,105 +111,186 @@ export default function Controls({
         flex
         items-center
         justify-between
+          gap-6
+
       ">
 
         <div className="
-          flex
-          items-center
-          gap-3
-        ">
+  flex
+  items-center
+  gap-3
+">
 
-          <button
+  <button
 
-            onClick={
-              togglePlayback
-            }
+    onClick={
+      previousChapter
+    }
 
-            className="
-              w-12
-              h-12
+    className="
+      w-12
+      h-12
 
-              rounded-full
+      rounded-full
 
-              bg-white
+      bg-zinc-900
 
-              text-black
+      hover:bg-zinc-800
 
-              text-lg
+      transition-all
+    "
+  >
 
-              hover:scale-105
+    ⏮
 
-              transition-all
-            "
+  </button>
 
-          >
+  <button
 
-            {
+    onClick={
+      togglePlayback
+    }
 
-              status.playing
+    className="
+      w-14
+      h-14
 
-              &&
+      rounded-full
 
-              !status.paused
+      bg-white
 
-                ?
+      text-black
 
-                "⏸"
+      text-xl
 
-                :
+      hover:scale-105
 
-                "▶"
+      transition-all
+    "
+  >
 
-            }
+    {
 
-          </button>
+      status.playing
 
-          <select
+      &&
 
-            onChange={(e) =>
+      !status.paused
 
-              changeSpeed(
-                e.target.value
-              )
+      ?
 
-            }
+      "⏸"
 
-            defaultValue="1"
+      :
 
-            className="
-              bg-zinc-900
+      "▶"
 
-              px-3
-              py-2
+    }
 
-              rounded-xl
-            "
+  </button>
 
-          >
+  <button
 
-            <option value="0.75">
-              0.75x
-            </option>
+    onClick={
+      nextChapter
+    }
 
-            <option value="1">
-              1x
-            </option>
+    className="
+      w-12
+      h-12
 
-            <option value="1.25">
-              1.25x
-            </option>
+      rounded-full
 
-            <option value="1.5">
-              1.5x
-            </option>
+      bg-zinc-900
 
-            <option value="2">
-              2x
-            </option>
+      hover:bg-zinc-800
 
-          </select>
+      transition-all
+    "
+  >
 
-        </div>
+    ⏭
+
+  </button>
+
+  <select
+
+    onChange={(e) =>
+      changeSpeed(
+        e.target.value
+      )
+    }
+
+    defaultValue="1"
+
+    className="
+      bg-zinc-900
+      px-3
+      py-2
+      rounded-xl
+    "
+
+  >
+
+    <option value="0.9">
+      0.9x
+    </option>
+
+    <option value="1">
+      1x
+    </option>
+
+    <option value="1.25">
+      1.25x
+    </option>
+
+    <option value="1.5">
+      1.5x
+    </option>
+
+    <option value="2">
+      2x
+    </option>
+
+  </select>
+
+  <button
+
+    onClick={
+      toggleAutoNext
+    }
+
+    className={`
+
+      px-4
+      py-2
+
+      rounded-xl
+
+      transition-all
+
+      ${
+
+        autoNext
+
+        ?
+
+        "bg-cyan-500 text-black"
+
+        :
+
+        "bg-zinc-900 text-white"
+
+      }
+
+    `}
+  >
+
+    ⟳ Auto
+
+  </button>
+
+</div>
 
   <div className="
   flex
