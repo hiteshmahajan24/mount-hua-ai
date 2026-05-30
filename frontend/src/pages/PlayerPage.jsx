@@ -86,7 +86,13 @@ const [currentSubtitle, setCurrentSubtitle] =
   } = useGlobalAudio();
 
 
-  const API = "http://127.0.0.1:8000";    
+  const API = "http://127.0.0.1:8000";  
+  
+ // const API =
+  //"http://192.168.31.242:8000";
+
+  // const API =
+  // `http://${window.location.hostname}:8000`;
 
 
 const chapterImages = {
